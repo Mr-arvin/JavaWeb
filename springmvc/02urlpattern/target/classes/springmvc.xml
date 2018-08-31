@@ -10,7 +10,9 @@
         http://www.springframework.org/schema/context/spring-context.xsd http://www.springframework.org/schema/mvc http://www.springframework.org/schema/mvc/spring-mvc.xsd">
 
     <!--方式二：解决静态资源无法访问的问题，添加下面标签即可-->
-    <mvc:default-servlet-handler/>
+    <!--<mvc:default-servlet-handler/>-->
+
+    <!--方式三：解决静态资源无法访问的问题，添加下面标签即可，性能比方式一和二要好-->
     <mvc:resources mapping="/images/**" location="/images/" />
     <mvc:resources mapping="/images/**" location="/css/" />
     <mvc:resources mapping="/images/**" location="/js/" />
