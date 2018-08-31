@@ -29,6 +29,7 @@
         <property name="suffix" value=".jsp" />
     </bean>
 
-        <bean id="/hello.do" class="com.monkey1024.controller.HelloSpringMvc" />
+    <!--注册controller-->
+    <bean id="/hello.do" class="com.monkey1024.controller.HelloSpringMvc" />
 
 </beans>
