@@ -18,8 +18,8 @@
         location：静态资源所在目录
     -->
     <mvc:resources mapping="/images/**" location="/images/" />
-    <mvc:resources mapping="/images/**" location="/css/" />
-    <mvc:resources mapping="/images/**" location="/js/" />
+    <mvc:resources mapping="/css/**" location="/css/" />
+    <mvc:resources mapping="/js/**" location="/js/" />
 
 
     <!-- 视图解释类 -->
