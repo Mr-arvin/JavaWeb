@@ -1,4 +1,4 @@
-package com.monkey1024;
+package com.monkey1024.controller;
 
 import org.springframework.web.servlet.ModelAndView;
 import org.springframework.web.servlet.mvc.Controller;
@@ -7,7 +7,7 @@ import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 
 /**
- * localhost:8080/hello.do
+ * localhost:8080/
  */
 
 public class HelloSpringMvc implements Controller {
