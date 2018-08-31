@@ -8,6 +8,7 @@
         <outputRelativeToContentRoot value="true" />
         <module name="_01firstmvc" />
         <module name="_02urlpattern" />
+        <module name="_03annotation" />
       </profile>
     </annotationProcessing>
   </component>

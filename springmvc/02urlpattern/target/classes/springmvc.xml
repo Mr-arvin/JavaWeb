@@ -13,9 +13,13 @@
     <!--<mvc:default-servlet-handler/>-->
 
     <!--方式三：解决静态资源无法访问的问题，添加下面标签即可，性能比方式一和二要好-->
+    <!--
+        mapping：表示对该资源的请求，注意后面是两个*
+        location：静态资源所在目录
+    -->
     <mvc:resources mapping="/images/**" location="/images/" />
-    <mvc:resources mapping="/images/**" location="/css/" />
-    <mvc:resources mapping="/images/**" location="/js/" />
+    <mvc:resources mapping="/css/**" location="/css/" />
+    <mvc:resources mapping="/js/**" location="/js/" />
 
 
     <!-- 视图解释类 -->
@@ -25,6 +29,7 @@
         <property name="suffix" value=".jsp" />
     </bean>
 
-        <bean id="/hello.do" class="com.monkey1024.controller.HelloSpringMvc" />
+    <!--注册controller-->
+    <bean id="/hello.do" class="com.monkey1024.controller.HelloSpringMvc" />
 
 </beans>
