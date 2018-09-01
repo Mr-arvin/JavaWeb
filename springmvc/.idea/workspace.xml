@@ -2,28 +2,11 @@
 <project version="4">
   <component name="ArtifactsWorkspaceSettings">
     <artifacts-to-build>
-      <artifact name="_04requestparams:war exploded" />
+      <artifact name="_03annotation:war exploded" />
     </artifacts-to-build>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e2b39b73-41fc-4a0f-a257-3a3e455fc8c3" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/excludeFromValidation.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/04requestparams/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/04requestparams/src/main/java/com/monkey1024/controller/ParamsController01.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/04requestparams/src/main/resources/springmvc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/04requestparams/src/main/webapp/jsp/getParamsResult.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/04requestparams/src/main/webapp/jsp/regist.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/01firstmvc/target/01firstmvc.war" beforeDir="false" afterPath="$PROJECT_DIR$/01firstmvc/target/01firstmvc.war" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/02urlpattern/target/02urlpattern.war" beforeDir="false" afterPath="$PROJECT_DIR$/02urlpattern/target/02urlpattern.war" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/03annotation/target/03annotation.war" beforeDir="false" afterPath="$PROJECT_DIR$/03annotation/target/03annotation.war" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/03annotation/target/03annotation/WEB-INF/classes/com/monkey1024/controller/PostGetController.class" beforeDir="false" afterPath="$PROJECT_DIR$/03annotation/target/03annotation/WEB-INF/classes/com/monkey1024/controller/PostGetController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/03annotation/target/03annotation/index.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/03annotation/target/03annotation/index.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/03annotation/target/classes/com/monkey1024/controller/PostGetController.class" beforeDir="false" afterPath="$PROJECT_DIR$/03annotation/target/classes/com/monkey1024/controller/PostGetController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-    </list>
+    <list default="true" id="e2b39b73-41fc-4a0f-a257-3a3e455fc8c3" name="Default Changelist" comment="" />
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
     <ignored path="$PROJECT_DIR$/01firstmvc/target/" />
@@ -290,6 +273,11 @@
               <item name="springmvc" type="b2602c69:ProjectViewProjectNode" />
               <item name="springmvc" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="springmvc" type="b2602c69:ProjectViewProjectNode" />
+              <item name="springmvc" type="462c0819:PsiDirectoryNode" />
+              <item name="02urlpattern" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
@@ -302,7 +290,7 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1535817080593" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1535817172727" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="project.structure.last.edited" value="Modules" />
@@ -459,16 +447,15 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1535699727047</updated>
-      <workItem from="1535699728447" duration="15371000" />
+      <workItem from="1535699728447" duration="15612000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="15371000" />
+    <option name="totallyTimeSpent" value="15612000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1680" height="1027" extended-state="0" />
-    <editor active="true" />
     <layout>
       <window_info id="Designer" />
       <window_info id="Image Layers" />
