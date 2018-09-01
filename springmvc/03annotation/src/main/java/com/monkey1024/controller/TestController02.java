@@ -8,9 +8,10 @@ import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 
 @Controller() //表示当前类是一个controller
+@RequestMapping("/test") //表示一个命名空间namespace
 public class TestController02 {
 
-    @RequestMapping({"/test/hello.do","/test/world.do"})
+    @RequestMapping({"/hello.do","/world.do"})
     public ModelAndView test2(HttpServletRequest request, HttpServletResponse response) throws Exception{
 
         ModelAndView mv = new ModelAndView();
