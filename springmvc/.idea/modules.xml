@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/01firstmvc/_01firstmvc.iml" filepath="$PROJECT_DIR$/01firstmvc/_01firstmvc.iml" />
+      <module fileurl="file://$PROJECT_DIR$/02urlpattern/_02urlpattern.iml" filepath="$PROJECT_DIR$/02urlpattern/_02urlpattern.iml" />
+      <module fileurl="file://$PROJECT_DIR$/03annotation/_03annotation.iml" filepath="$PROJECT_DIR$/03annotation/_03annotation.iml" />
+    </modules>
+  </component>
+</project>
