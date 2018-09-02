@@ -22,4 +22,14 @@ public class ParamsController02 {
         mv.setViewName("getParamsResult");
         return mv;
     }
+
+    @RequestMapping("/params03")
+    public ModelAndView getParams03(@RequestParam(name = "username") String t_username, @RequestParam(name = "age") int t_age, @RequestParam(required = true) String password) throws Exception {
+        //方法的参数名需要跟前台页面中的表单里的input的name一致
+        ModelAndView mv = new ModelAndView();
+        mv.addObject("username",t_username);
+        mv.addObject("age",t_age);
+        mv.setViewName("getParamsResult");
+        return mv;
+    }
 }
