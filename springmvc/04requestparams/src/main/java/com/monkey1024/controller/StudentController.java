@@ -20,4 +20,15 @@ public class StudentController {
         mv.setViewName("studentInfo");
         return mv;
     }
+
+    @RequestMapping("/add2")
+    public ModelAndView add2(Student student) throws Exception{
+        ModelAndView mv = new ModelAndView();
+        mv.addObject("name",student.getName());
+        mv.addObject("age",student.getAge());
+        mv.addObject("schoolName",student.getSchool().getSchoolName());
+        mv.addObject("address",student.getSchool().getAddress());
+        mv.setViewName("studentInfo");
+        return mv;
+    }
 }

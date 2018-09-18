@@ -13,5 +13,7 @@
 <body>
 姓名：${name}
 年龄：${age}
+学校名称：${schoolName}
+学校地址：${address}
 </body>
 </html>

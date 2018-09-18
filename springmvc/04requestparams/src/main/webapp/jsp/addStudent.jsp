@@ -17,5 +17,20 @@
     年龄：<input type="text" name="age">
     <input type="submit" value="提交">
 </form>
+
+<br>
+
+<form action="/student/add2.do" method="post">
+    姓名：<input type="text" name="username">
+    <br>
+    年龄：<input type="text" name="age">
+    <br>
+    <%--要写成对象属性.属性的方式--%>
+    学校名称：<input type="text" name="school.schoolName">
+    <br>
+    学校地址：<input type="text" name="school.address">
+    <br>
+    <input type="submit" value="提交">
+</form>
 </body>
 </html>
