@@ -4,13 +4,20 @@
          xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/javaee http://xmlns.jcp.org/xml/ns/javaee/web-app_3_1.xsd"
          version="3.1">
   <!--字符编码过滤器-->
+  <!--最好配置在其它过滤器之前，因为过滤器的执行顺序是根据web.xml中的顺序一致-->
   <filter>
     <filter-name>characterEncodingFilter</filter-name>
     <filter-class>org.springframework.web.filter.CharacterEncodingFilter</filter-class>
     <!--手动指定字符编码-->
     <init-param>
+      <!--因为当前filter中的成员变量叫做encoding，所以-->
       <param-name>encoding</param-name>
       <param-value>utf-8</param-value>
+    </init-param>
+    <!--强制设置成utf-8，即使在request或者response中设置了字符编码，那么也会为其强制转换成当前设置字符编码-->
+    <init-param>
+      <param-name>forceEncoding</param-name>
+      <param-value>true</param-value>
     </init-param>
   </filter>
   <filter-mapping>

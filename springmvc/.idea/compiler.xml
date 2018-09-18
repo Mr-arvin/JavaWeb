@@ -9,11 +9,19 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
+        <module name="01firstmvc" />
+        <module name="02urlpattern" />
+        <module name="03annotation" />
         <module name="_01firstmvc" />
         <module name="_02urlpattern" />
         <module name="_03annotation" />
         <module name="_04requestparams" />
       </profile>
     </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="_01firstmvc" target="1.8" />
+      <module name="_02urlpattern" target="1.8" />
+      <module name="_03annotation" target="1.8" />
+    </bytecodeTargetLevel>
   </component>
 </project>
