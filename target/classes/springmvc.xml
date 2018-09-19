@@ -19,17 +19,17 @@
     <mvc:resources mapping="/css/**" location="/css/" />
     <mvc:resources mapping="/js/**" location="/js/" />
 
-    <!--视图解析器-->
+    <!-- 外部 视图解析器 注意，外部视图解析器需要放在内部视图解析器上面-->
     <bean class="org.springframework.web.servlet.view.BeanNameViewResolver"/>
 
-    <!-- 定义外部资源view对象 重定向视图-->
+    <!-- 外部 定义外部资源view对象 重定向视图，外部视图解析器需要放在内部视图解析器上面 -->
     <bean id="monkey1024" class="org.springframework.web.servlet.view.RedirectView">
         <property name="url" value="http://www.monkey1024.com">
 
         </property>
     </bean>
 
-    <!-- 视图解释类 -->
+    <!-- 内部 视图解释类 -->
     <bean class="org.springframework.web.servlet.view.InternalResourceViewResolver">
         <property name="prefix" value="/jsp/"/>
         <property name="suffix" value=".jsp"/>
