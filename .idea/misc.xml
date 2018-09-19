@@ -2,10 +2,7 @@
 <project version="4">
   <component name="ExternalStorageConfigurationManager" enabled="true" />
   <component name="FrameworkDetectionExcludesConfiguration">
-    <file type="web" url="file://$PROJECT_DIR$/springmvc/01firstmvc" />
-    <file type="web" url="file://$PROJECT_DIR$/springmvc/02urlpattern" />
-    <file type="web" url="file://$PROJECT_DIR$/springmvc/03annotation" />
-    <file type="web" url="file://$PROJECT_DIR$/springmvc/04requestparams" />
+    <file type="web" url="file://$PROJECT_DIR$" />
   </component>
   <component name="MavenProjectsManager">
     <option name="originalFiles">

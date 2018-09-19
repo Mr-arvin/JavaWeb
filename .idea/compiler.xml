@@ -10,6 +10,7 @@
         <module name="02urlpattern" />
         <module name="03annotation" />
         <module name="04requestparams" />
+        <module name="_05returnvalue" />
       </profile>
     </annotationProcessing>
   </component>
