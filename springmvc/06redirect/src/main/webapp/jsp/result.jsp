@@ -12,5 +12,7 @@
 </head>
 <body>
 ${type}
+<br>
+${content}
 </body>
 </html>

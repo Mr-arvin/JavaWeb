@@ -25,4 +25,16 @@ public class ForwardRedirectController {
         mv.setViewName("forward:/jsp/result.jsp");
         return mv;
     }
+
+    @RequestMapping("/otherforwardMAV.do")
+    public ModelAndView fromOther()throws Exception {
+        ModelAndView mv = new ModelAndView();
+        mv.addObject("type","返回ModelAndView对象的转发");
+        //1：这里默认使用转发进行跳转
+        //mv.setViewName("result");
+
+        //2：转发 如果要跳转到其它controller上面，此时要forward
+        mv.setViewName("forward:other.do");
+        return mv;
+    }
 }
