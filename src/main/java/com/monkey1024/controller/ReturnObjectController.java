@@ -16,6 +16,6 @@ public class ReturnObjectController {
     @ResponseBody //告诉springmvc当前的returnString方法返回的数据添加到响应体里面（monkey1024）
     public Object returnString() throws Exception{
 
-        return "monkey1024";
+        return "monkey1024"; //因为@ResponseBody "monkey1024"会直接添加到响应体里面，而非根据这个字符串去找相应的monkey1024.jsp
     }
 }
