@@ -11,6 +11,7 @@
     <title>Title</title>
 </head>
 <body>
+<%--http://localhost:8088/servletjump2.do?name=andy&age=28--%>
 ${student.name}
 ${student.age}
 </body>

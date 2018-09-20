@@ -1,11 +1,13 @@
 package com.monkey1024.controller;
 
+import com.alibaba.fastjson.JSON;
 import com.monkey1024.bean.Student;
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.RequestMapping;
 
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
+import java.io.PrintWriter;
 
 /**
  * 方法没有返回值
@@ -23,5 +25,16 @@ public class ReturnVoidController {
     public void servletJump2(HttpServletRequest request, HttpServletResponse response, Student student) throws Exception {
         request.setAttribute("student",student);
         request.getRequestDispatcher("/jsp/servletjump.jsp").forward(request,response);
+    }
+
+    @RequestMapping("/ajaxResponse.do")
+    public void ajaxResponse(HttpServletRequest request,HttpServletResponse response, Student student) throws Exception {
+        PrintWriter out = response.getWriter();//拿到Wirter对象
+        String jsonString = JSON.toJSONString(student);//把传进来的Student对象转成Json格式的字符串
+
+//        String name = request.getParameter("name");
+//        System.out.print(name);
+
+        out.write(jsonString);//把转换成的json字符串写到jsp里面
     }
 }
