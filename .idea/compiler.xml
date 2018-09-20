@@ -11,7 +11,11 @@
         <module name="03annotation" />
         <module name="04requestparams" />
         <module name="_05returnvalue" />
+        <module name="_06redirect" />
       </profile>
     </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="05returnvalue" target="1.7" />
+    </bytecodeTargetLevel>
   </component>
 </project>

@@ -12,6 +12,7 @@
         <module name="01firstmvc" />
         <module name="02urlpattern" />
         <module name="03annotation" />
+        <module name="06redirect" />
         <module name="_01firstmvc" />
         <module name="_02urlpattern" />
         <module name="_03annotation" />

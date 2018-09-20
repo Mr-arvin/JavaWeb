@@ -1,12 +1,13 @@
 <component name="ArtifactManager">
   <artifact type="exploded-war" name="01firstmvc:war exploded">
-    <output-path>$PROJECT_DIR$/out/artifacts/01firstmvc_war_exploded</output-path>
+    <output-path>$PROJECT_DIR$/01firstmvc/target/01firstmvc</output-path>
     <root id="root">
       <element id="directory" name="WEB-INF">
         <element id="directory" name="classes">
           <element id="module-output" name="01firstmvc" />
         </element>
         <element id="directory" name="lib">
+          <element id="library" level="project" name="Maven: javax.servlet:javax.servlet-api:3.1.0" />
           <element id="library" level="project" name="Maven: org.springframework:spring-webmvc:5.0.4.RELEASE" />
           <element id="library" level="project" name="Maven: org.springframework:spring-aop:5.0.4.RELEASE" />
           <element id="library" level="project" name="Maven: org.springframework:spring-beans:5.0.4.RELEASE" />
@@ -16,6 +17,9 @@
           <element id="library" level="project" name="Maven: org.springframework:spring-expression:5.0.4.RELEASE" />
           <element id="library" level="project" name="Maven: org.springframework:spring-web:5.0.4.RELEASE" />
         </element>
+      </element>
+      <element id="directory" name="META-INF">
+        <element id="file-copy" path="$PROJECT_DIR$/01firstmvc/target/01firstmvc/META-INF/MANIFEST.MF" />
       </element>
       <element id="javaee-facet-resources" facet="01firstmvc/web/Web" />
     </root>
