@@ -12,18 +12,17 @@
     <script src="/js/jquery-3.3.1.min.js"></script>
 </head>
 <body>
-    <button type="submit" id="ajaxResponse">ajax-response</button>
+    <button type="submit" id="objectReturnString">object-String</button>
 </body>
 <script>
     $(function () {
-        $("#ajaxResponse").click(function () {
+        $("#objectReturnString").click(function () {
             $.ajax({
                 method:"post",
-                url:"/ajaxResponse.do",
-                data:{name:"monkey",age:"24",address:"中科院"},
-                dataType:"JSON",
+                url:"/returnString.do",
+                // data:{name:"monkey",age:"24"},
                 success:function (result) {
-                    console.log(result.name+"|"+result.age+"|"+result.address)//monkey|24|undefined 因为Student类里面没有address这个属性，所以undefind
+                    console.log(result)
                 }
             })
         })
