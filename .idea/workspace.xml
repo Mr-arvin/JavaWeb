@@ -2,87 +2,17 @@
 <project version="4">
   <component name="ArtifactsWorkspaceSettings">
     <artifacts-to-build>
-      <artifact name="_05returnvalue:war exploded" />
+      <artifact name="_06redirect:war exploded" />
     </artifacts-to-build>
   </component>
   <component name="ChangeListManager">
     <list default="true" id="cffcdb52-06f4-401d-a13f-1b9a8826b657" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/lib.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springmvc/05returnvalue/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springmvc/06redirect/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springmvc/springmvc.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springmvc/06redirect/src/main/java/com/monkey1024/controller/ForwardRedirectController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springmvc/06redirect/src/main/resources/springmvc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springmvc/06redirect/src/main/webapp/jsp/result.jsp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/springmvc/.idea/artifacts/01firstmvc_war.xml" beforeDir="false" afterPath="$PROJECT_DIR$/springmvc/.idea/artifacts/01firstmvc_war.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/springmvc/.idea/artifacts/01firstmvc_war_exploded.xml" beforeDir="false" afterPath="$PROJECT_DIR$/springmvc/.idea/artifacts/01firstmvc_war_exploded.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/springmvc/.idea/artifacts/02urlpattern_war.xml" beforeDir="false" afterPath="$PROJECT_DIR$/springmvc/.idea/artifacts/02urlpattern_war.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/springmvc/.idea/artifacts/02urlpattern_war_exploded.xml" beforeDir="false" afterPath="$PROJECT_DIR$/springmvc/.idea/artifacts/02urlpattern_war_exploded.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/springmvc/.idea/artifacts/03annotation_war.xml" beforeDir="false" afterPath="$PROJECT_DIR$/springmvc/.idea/artifacts/03annotation_war.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/springmvc/.idea/artifacts/03annotation_war_exploded.xml" beforeDir="false" afterPath="$PROJECT_DIR$/springmvc/.idea/artifacts/03annotation_war_exploded.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/springmvc/.idea/artifacts/_04requestparams_war.xml" beforeDir="false" afterPath="$PROJECT_DIR$/springmvc/.idea/artifacts/_04requestparams_war.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/springmvc/.idea/artifacts/_04requestparams_war_exploded.xml" beforeDir="false" afterPath="$PROJECT_DIR$/springmvc/.idea/artifacts/_04requestparams_war_exploded.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/springmvc/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/springmvc/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/springmvc/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/springmvc/.idea/encodings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/springmvc/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/springmvc/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/springmvc/out/artifacts/03annotation_war_exploded/META-INF/MANIFEST.MF" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/springmvc/out/artifacts/03annotation_war_exploded/WEB-INF/classes/com/monkey1024/controller/PostGetController.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/springmvc/out/artifacts/03annotation_war_exploded/WEB-INF/classes/com/monkey1024/controller/TestController01.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/springmvc/out/artifacts/03annotation_war_exploded/WEB-INF/classes/com/monkey1024/controller/TestController02.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/springmvc/out/artifacts/03annotation_war_exploded/WEB-INF/classes/springmvc.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/springmvc/out/artifacts/03annotation_war_exploded/WEB-INF/web.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/springmvc/out/artifacts/03annotation_war_exploded/index.jsp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/springmvc/out/artifacts/03annotation_war_exploded/jsp/get.jsp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/springmvc/out/artifacts/03annotation_war_exploded/jsp/post.jsp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/springmvc/out/artifacts/03annotation_war_exploded/jsp/test1.jsp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/springmvc/out/artifacts/_04requestparams_war_exploded/META-INF/MANIFEST.MF" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/springmvc/out/artifacts/_04requestparams_war_exploded/WEB-INF/classes/com/monkey1024/controller/ParamsController01.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/springmvc/out/artifacts/_04requestparams_war_exploded/WEB-INF/classes/springmvc.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/springmvc/out/artifacts/_04requestparams_war_exploded/WEB-INF/web.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/springmvc/out/artifacts/_04requestparams_war_exploded/index.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/springmvc/05returnvalue/src/main/webapp/index.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/springmvc/out/artifacts/_04requestparams_war_exploded/jsp/getParamsResult.jsp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/springmvc/out/artifacts/_04requestparams_war_exploded/jsp/regist.jsp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/springmvc/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/springmvc/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/springmvc/src/main/webapp/WEB-INF/web.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/springmvc/src/main/webapp/index.jsp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/monkey1024/bean/Student.java" beforeDir="false" afterPath="$PROJECT_DIR$/springmvc/05returnvalue/src/main/java/com/monkey1024/bean/Student.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/monkey1024/controller/ModelController.java" beforeDir="false" afterPath="$PROJECT_DIR$/springmvc/05returnvalue/src/main/java/com/monkey1024/controller/ModelController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/monkey1024/controller/ReturnObjectController.java" beforeDir="false" afterPath="$PROJECT_DIR$/springmvc/05returnvalue/src/main/java/com/monkey1024/controller/ReturnObjectController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/monkey1024/controller/ReturnStringController.java" beforeDir="false" afterPath="$PROJECT_DIR$/springmvc/05returnvalue/src/main/java/com/monkey1024/controller/ReturnStringController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/monkey1024/controller/ReturnVoidController.java" beforeDir="false" afterPath="$PROJECT_DIR$/springmvc/05returnvalue/src/main/java/com/monkey1024/controller/ReturnVoidController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/springmvc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/springmvc/05returnvalue/src/main/resources/springmvc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" beforeDir="false" afterPath="$PROJECT_DIR$/springmvc/05returnvalue/src/main/webapp/WEB-INF/web.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/index.jsp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/js/jquery-3.3.1.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/springmvc/05returnvalue/src/main/webapp/js/jquery-3.3.1.min.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/jsp/ajaxresponse.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/springmvc/05returnvalue/src/main/webapp/jsp/ajaxresponse.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/jsp/mapresponse.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/springmvc/05returnvalue/src/main/webapp/jsp/mapresponse.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/jsp/modeldata.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/springmvc/05returnvalue/src/main/webapp/jsp/modeldata.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/jsp/objectresponse.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/springmvc/05returnvalue/src/main/webapp/jsp/objectresponse.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/jsp/servletjump.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/springmvc/05returnvalue/src/main/webapp/jsp/servletjump.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/jsp/welcome.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/springmvc/05returnvalue/src/main/webapp/jsp/welcome.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/05returnvalue/META-INF/MANIFEST.MF" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/05returnvalue/WEB-INF/classes/com/monkey1024/bean/Student.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/05returnvalue/WEB-INF/classes/com/monkey1024/controller/ModelController.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/05returnvalue/WEB-INF/classes/com/monkey1024/controller/ReturnObjectController.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/05returnvalue/WEB-INF/classes/com/monkey1024/controller/ReturnStringController.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/05returnvalue/WEB-INF/classes/com/monkey1024/controller/ReturnVoidController.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/05returnvalue/WEB-INF/classes/springmvc.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/05returnvalue/WEB-INF/web.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/05returnvalue/index.jsp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/05returnvalue/js/jquery-3.3.1.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/05returnvalue/jsp/ajaxresponse.jsp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/05returnvalue/jsp/mapresponse.jsp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/05returnvalue/jsp/modeldata.jsp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/05returnvalue/jsp/objectresponse.jsp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/05returnvalue/jsp/servletjump.jsp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/05returnvalue/jsp/welcome.jsp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/monkey1024/bean/Student.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/monkey1024/controller/ModelController.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/monkey1024/controller/ReturnObjectController.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/monkey1024/controller/ReturnStringController.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/monkey1024/controller/ReturnVoidController.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/springmvc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/springmvc/06redirect/src/main/webapp/WEB-INF/web.xml" beforeDir="false" afterPath="$PROJECT_DIR$/springmvc/06redirect/src/main/webapp/WEB-INF/web.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -130,37 +60,38 @@
       <usages-collector id="statistics.file.extensions.open">
         <counts>
           <entry key="class" value="9" />
-          <entry key="java" value="30" />
+          <entry key="java" value="33" />
           <entry key="js" value="4" />
-          <entry key="jsp" value="23" />
+          <entry key="jsp" value="24" />
           <entry key="xhtml" value="1" />
-          <entry key="xml" value="30" />
+          <entry key="xml" value="32" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
           <entry key="CLASS" value="9" />
-          <entry key="JAVA" value="30" />
-          <entry key="JSP" value="23" />
+          <entry key="JAVA" value="33" />
+          <entry key="JSP" value="24" />
           <entry key="JavaScript" value="4" />
           <entry key="XHTML" value="1" />
-          <entry key="XML" value="30" />
+          <entry key="XML" value="32" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="java" value="2396" />
-          <entry key="jsp" value="609" />
+          <entry key="dummy" value="8" />
+          <entry key="java" value="2696" />
+          <entry key="jsp" value="615" />
           <entry key="txt" value="22" />
-          <entry key="xml" value="537" />
+          <entry key="xml" value="540" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="2396" />
-          <entry key="JSP" value="609" />
-          <entry key="PLAIN_TEXT" value="22" />
-          <entry key="XML" value="537" />
+          <entry key="JAVA" value="2696" />
+          <entry key="JSP" value="615" />
+          <entry key="PLAIN_TEXT" value="30" />
+          <entry key="XML" value="540" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.spring.core.usages.trigger">
@@ -173,52 +104,22 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/springmvc/pom.xml">
+        <entry file="file://$PROJECT_DIR$/springmvc/06redirect/src/main/java/com/monkey1024/controller/ForwardRedirectController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="94">
-              <caret line="36" column="16" lean-forward="true" selection-start-line="36" selection-start-column="16" selection-end-line="36" selection-end-column="16" />
+            <state relative-caret-position="330">
+              <caret line="22" lean-forward="true" selection-start-line="22" selection-end-line="22" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/springmvc/06redirect/pom.xml">
+        <entry file="file://$PROJECT_DIR$/springmvc/06redirect/src/main/webapp/jsp/result.jsp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="360">
-              <caret line="24" column="18" selection-start-line="24" selection-start-column="18" selection-end-line="24" selection-end-column="18" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/springmvc/05returnvalue/pom.xml">
-          <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/springmvc/05returnvalue/src/main/java/com/monkey1024/bean/Student.java">
-          <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/springmvc/05returnvalue/src/main/resources/springmvc.xml">
-          <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/springmvc/05returnvalue/src/main/java/com/monkey1024/controller/ReturnVoidController.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="30">
-              <caret line="2" column="27" selection-start-line="2" selection-start-column="19" selection-end-line="2" selection-end-column="27" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/springmvc/04requestparams/src/main/webapp/WEB-INF/web.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="281">
-              <caret line="30" column="16" selection-end-line="41" selection-end-column="10" />
+            <state relative-caret-position="210">
+              <caret line="14" column="7" lean-forward="true" selection-start-line="14" selection-start-column="7" selection-end-line="14" selection-end-column="7" />
             </state>
           </provider>
         </entry>
@@ -229,8 +130,8 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="jsf" />
-        <option value="Jsp File" />
         <option value="Class" />
+        <option value="Jsp File" />
       </list>
     </option>
   </component>
@@ -267,10 +168,13 @@
         <option value="$PROJECT_DIR$/src/main/webapp/jsp/objectjump.jsp" />
         <option value="$PROJECT_DIR$/src/main/java/com/monkey1024/controller/ReturnObjectController.java" />
         <option value="$PROJECT_DIR$/src/main/webapp/jsp/mapresponse.jsp" />
-        <option value="$PROJECT_DIR$/springmvc/06redirect/pom.xml" />
         <option value="$PROJECT_DIR$/springmvc/05returnvalue/src/main/webapp/WEB-INF/web.xml" />
         <option value="$PROJECT_DIR$/springmvc/05returnvalue/pom.xml" />
         <option value="$PROJECT_DIR$/springmvc/pom.xml" />
+        <option value="$PROJECT_DIR$/springmvc/06redirect/pom.xml" />
+        <option value="$PROJECT_DIR$/springmvc/06redirect/src/main/java/com/monkey1024/controller/ForwardMAVController.java" />
+        <option value="$PROJECT_DIR$/springmvc/06redirect/src/main/webapp/jsp/result.jsp" />
+        <option value="$PROJECT_DIR$/springmvc/06redirect/src/main/java/com/monkey1024/controller/ForwardRedirectController.java" />
       </list>
     </option>
   </component>
@@ -420,52 +324,25 @@
             <path>
               <item name="firstmvc" type="b2602c69:ProjectViewProjectNode" />
               <item name="springmvc" type="462c0819:PsiDirectoryNode" />
-              <item name="05returnvalue" type="462c0819:PsiDirectoryNode" />
+              <item name="06redirect" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="firstmvc" type="b2602c69:ProjectViewProjectNode" />
               <item name="springmvc" type="462c0819:PsiDirectoryNode" />
-              <item name="05returnvalue" type="462c0819:PsiDirectoryNode" />
+              <item name="06redirect" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="firstmvc" type="b2602c69:ProjectViewProjectNode" />
               <item name="springmvc" type="462c0819:PsiDirectoryNode" />
-              <item name="05returnvalue" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="firstmvc" type="b2602c69:ProjectViewProjectNode" />
-              <item name="springmvc" type="462c0819:PsiDirectoryNode" />
-              <item name="05returnvalue" type="462c0819:PsiDirectoryNode" />
+              <item name="06redirect" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="firstmvc" type="b2602c69:ProjectViewProjectNode" />
               <item name="springmvc" type="462c0819:PsiDirectoryNode" />
-              <item name="05returnvalue" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="monkey1024" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="firstmvc" type="b2602c69:ProjectViewProjectNode" />
-              <item name="springmvc" type="462c0819:PsiDirectoryNode" />
-              <item name="05returnvalue" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="monkey1024" type="462c0819:PsiDirectoryNode" />
-              <item name="controller" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="firstmvc" type="b2602c69:ProjectViewProjectNode" />
-              <item name="springmvc" type="462c0819:PsiDirectoryNode" />
-              <item name="05returnvalue" type="462c0819:PsiDirectoryNode" />
+              <item name="06redirect" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="webapp" type="462c0819:PsiDirectoryNode" />
@@ -473,11 +350,20 @@
             <path>
               <item name="firstmvc" type="b2602c69:ProjectViewProjectNode" />
               <item name="springmvc" type="462c0819:PsiDirectoryNode" />
-              <item name="05returnvalue" type="462c0819:PsiDirectoryNode" />
+              <item name="06redirect" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="webapp" type="462c0819:PsiDirectoryNode" />
-              <item name="js" type="462c0819:PsiDirectoryNode" />
+              <item name="jsp" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="firstmvc" type="b2602c69:ProjectViewProjectNode" />
+              <item name="springmvc" type="462c0819:PsiDirectoryNode" />
+              <item name="06redirect" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="webapp" type="462c0819:PsiDirectoryNode" />
+              <item name="WEB-INF" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -490,7 +376,7 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1537428535578" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1537457954073" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
@@ -501,11 +387,11 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/springmvc/06redirect/src/main/webapp/WEB-INF" />
+      <recent name="$PROJECT_DIR$/springmvc/06redirect/src/main/resources" />
       <recent name="$PROJECT_DIR$/springmvc/05returnvalue/src/main/webapp" />
       <recent name="$PROJECT_DIR$/springmvc/05returnvalue/src/main/resources" />
       <recent name="$PROJECT_DIR$/springmvc/05returnvalue/src/main/java" />
-      <recent name="$PROJECT_DIR$/springmvc/05returnvalue/src/main" />
-      <recent name="$PROJECT_DIR$/src/main/webapp/jsp" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="com.monkey1024.controller" />
@@ -557,7 +443,7 @@
     <configuration name="tomcat" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 7.0.70" ALTERNATIVE_JRE_ENABLED="false">
       <option name="UPDATING_POLICY" value="restart-server" />
       <deployment>
-        <artifact name="_05returnvalue:war exploded">
+        <artifact name="_06redirect:war exploded">
           <settings>
             <option name="CONTEXT_PATH" value="/" />
           </settings>
@@ -623,7 +509,7 @@
       </ConfigurationWrapper>
       <method v="2">
         <option name="BuildArtifacts" enabled="true">
-          <artifact name="_05returnvalue:war exploded" />
+          <artifact name="_06redirect:war exploded" />
         </option>
       </method>
     </configuration>
@@ -653,12 +539,12 @@
       <workItem from="1536199003748" duration="16000" />
       <workItem from="1537158810242" duration="1824000" />
       <workItem from="1537276642695" duration="22529000" />
-      <workItem from="1537424525823" duration="2708000" />
+      <workItem from="1537424525823" duration="3930000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="31623000" />
+    <option name="totallyTimeSpent" value="32845000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="887" height="1027" extended-state="0" />
@@ -705,48 +591,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/springmvc/03annotation/src/main/webapp/index.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
-          <caret line="11" column="31" selection-start-line="11" selection-start-column="28" selection-end-line="11" selection-end-column="31" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/springmvc/04requestparams/src/main/webapp/jsp/regist.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="274">
-          <caret line="40" column="20" selection-start-line="40" selection-start-column="20" selection-end-line="40" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/springmvc/04requestparams/src/main/webapp/jsp/studentInfo.jsp.xhtml" />
-    <entry file="file://$PROJECT_DIR$/springmvc/04requestparams/target/classes/com/monkey1024/bean/Student.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="285">
-          <caret line="25" lean-forward="true" selection-start-line="25" selection-end-line="29" />
-          <folding>
-            <element signature="e#0#495#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/springmvc/04requestparams/target/classes/com/monkey1024/controller/ParamsController02.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="13" column="26" lean-forward="true" selection-start-line="13" selection-start-column="26" selection-end-line="13" selection-end-column="26" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/springmvc/04requestparams/src/main/resources/springmvc.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="405">
-          <caret line="27" lean-forward="true" selection-start-line="27" selection-end-line="27" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/springmvc/04requestparams/target/classes/com/monkey1024/controller/StudentController.class">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="240">
@@ -1061,16 +905,6 @@
     <entry file="file://$PROJECT_DIR$/springmvc/05returnvalue/src/main/resources/springmvc.xml">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/springmvc/06redirect/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="360">
-          <caret line="24" column="18" selection-start-line="24" selection-start-column="18" selection-end-line="24" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/springmvc/05returnvalue/pom.xml">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/springmvc/05returnvalue/src/main/java/com/monkey1024/bean/Student.java">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -1083,8 +917,59 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/springmvc/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="94">
-          <caret line="36" column="16" lean-forward="true" selection-start-line="36" selection-start-column="16" selection-end-line="36" selection-end-column="16" />
+        <state relative-caret-position="349">
+          <caret line="53" column="55" selection-start-line="53" selection-start-column="55" selection-end-line="53" selection-end-column="55" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/springmvc/06redirect/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="21" column="27" selection-start-line="21" selection-start-column="27" selection-end-line="21" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/springmvc/05returnvalue/pom.xml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/springmvc/05returnvalue/src/main/java/com/monkey1024/controller/ReturnObjectController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="15" column="13" selection-start-line="15" selection-start-column="13" selection-end-line="15" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/springmvc/05returnvalue/src/main/java/com/monkey1024/controller/ModelController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="14" column="11" lean-forward="true" selection-start-line="14" selection-start-column="1" selection-end-line="14" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/springmvc/06redirect/src/main/webapp/WEB-INF/web.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-191" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/springmvc/06redirect/src/main/resources/springmvc.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-62" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/springmvc/06redirect/src/main/webapp/jsp/result.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="14" column="7" lean-forward="true" selection-start-line="14" selection-start-column="7" selection-end-line="14" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/springmvc/06redirect/src/main/java/com/monkey1024/controller/ForwardRedirectController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="330">
+          <caret line="22" lean-forward="true" selection-start-line="22" selection-end-line="22" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
