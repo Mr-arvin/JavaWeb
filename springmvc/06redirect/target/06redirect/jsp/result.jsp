@@ -10,9 +10,21 @@
 <head>
     <title>Title</title>
 </head>
+<style>
+    html,body {
+        background: gray;
+    }
+</style>
 <body>
 ${type}
 <br>
 ${content}
+<br>
+${param.type}
+<br>
+${newschool.schoolName}
+${newschool.address}
+${school}
+${school.schoolName}
 </body>
 </html>
