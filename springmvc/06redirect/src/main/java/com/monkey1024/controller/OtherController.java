@@ -17,7 +17,7 @@ public class OtherController {
         mv.addObject("content","被跳转的controller 来自redirect_otherMAV");
         mv.addObject("type",type);
         mv.addObject("newschool",school);
-        mv.addObject("school",school.getSchoolName());
+        mv.addObject("school",school);
         mv.setViewName("result");;
         return mv;  
     }

@@ -26,5 +26,10 @@ ${newschool.schoolName}
 ${newschool.address}
 ${school}
 ${school.schoolName}
+${sssccc}
+<%--加不加都一样 requestScope--%>
+${requestScope.school.address}
+${param.address}
+
 </body>
 </html>

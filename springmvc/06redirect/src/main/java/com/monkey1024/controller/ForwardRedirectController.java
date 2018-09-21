@@ -74,7 +74,7 @@ public class ForwardRedirectController {
      * @throws Exception
      */
     @RequestMapping("/forwardStr.do")
-    //方法中的参数会被自动的放到Https request域中
+    //方法中的参数会被自动的放到Https request域中  默认是会在域里面添加school，有且只有school，不能自定义，这是Springmvc规矩
     public String forwardStr(School school) throws Exception {
         //显示的指定使用转发
         return "forward:/jsp/result.jsp";
