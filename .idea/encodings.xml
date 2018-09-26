@@ -9,5 +9,6 @@
     <file url="file://$PROJECT_DIR$/springmvc/04requestparams" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/springmvc/05returnvalue" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/springmvc/06redirect" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/springmvc/07exception" charset="UTF-8" />
   </component>
 </project>

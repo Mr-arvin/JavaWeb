@@ -12,6 +12,7 @@
         <module name="04requestparams" />
         <module name="_05returnvalue" />
         <module name="_06redirect" />
+        <module name="_07exception" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
