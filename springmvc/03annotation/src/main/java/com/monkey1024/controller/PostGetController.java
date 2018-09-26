@@ -26,6 +26,7 @@ public class PostGetController {
 
         ModelAndView mv = new ModelAndView();
         mv.addObject("method", "只支持get请求");
+        mv.addObject("name", request.getParameter("name"));
         mv.setViewName("get");
         return mv;
     }

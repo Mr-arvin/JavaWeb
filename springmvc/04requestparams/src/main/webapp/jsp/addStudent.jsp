@@ -12,7 +12,7 @@
 </head>
 <body>
 <form action="/student/add1.do" method="post">
-    姓名：<input type="text" name="username">
+    姓名：<input type="text" name="name">
     <br>
     年龄：<input type="text" name="age">
     <input type="submit" value="提交">
@@ -21,7 +21,7 @@
 <br>
 
 <form action="/student/add2.do" method="post">
-    姓名：<input type="text" name="username">
+    姓名：<input type="text" name="name">
     <br>
     年龄：<input type="text" name="age">
     <br>

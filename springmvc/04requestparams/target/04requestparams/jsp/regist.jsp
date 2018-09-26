@@ -34,12 +34,13 @@
     姓名：<input type="text" name="username">
     <br>
     年龄：<input type="text" name="age">
+    <%--<br>--%>
+    <%--密码：<input type="text" name="password">--%>
     <input type="submit" value="提交">
 </form>
 <br>
 <br>
 /user/params03=4.do:
-<form action="/user/params04.do" method="post">
 <form action="/user/params04.do" method="post">
     姓名：<input type="text" name="username">
     <br>

@@ -12,5 +12,7 @@
 </head>
 <body>
 ${method}
+<br>
+name:${name}
 </body>
 </html>

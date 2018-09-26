@@ -2,11 +2,12 @@ package com.monkey1024.controller;
 
 import com.monkey1024.bean.School;
 import org.springframework.stereotype.Controller;
+import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.servlet.ModelAndView;
 
 /**
- * Spring mvc 中的转发和重定向
+ * Spring mvc 中的转发和重定向 转发里面的数据是可以共享的，重定向不行
  */
 @Controller
 public class ForwardRedirectController {
@@ -58,7 +59,7 @@ public class ForwardRedirectController {
         ModelAndView mv = new ModelAndView();
         //这里只能传递基本数据类型和String类型
         mv.addObject("type","返回ModelAndView对象的重定向 type");
-        //只要名称和属性对应上，会自动帮你添加属性值，同时也会重定向到url参数中
+        //只要名称和属性对应上，会自动帮你添加属性值，同时也会重 定向到url参数中
         mv.addObject("schoolName","清华");
         mv.addObject("address","北京");
         //重定向
@@ -79,4 +80,17 @@ public class ForwardRedirectController {
         //显示的指定使用转发
         return "forward:/jsp/result.jsp";
     }
+
+    /**
+     * 返回String类型的重定向
+     */
+    @RequestMapping("/redirectStr.do")
+    public String redirectStr(Model model, School school) throws Exception{
+        //数据会被放到url地址栏中，因此这里只能传递基本数据类型和String类型
+        model.addAttribute("schoolName",school.getSchoolName());
+        model.addAttribute("address",school.getAddress());
+        return "redirect:/jsp/result.jsp";
+    }
+
+
 }

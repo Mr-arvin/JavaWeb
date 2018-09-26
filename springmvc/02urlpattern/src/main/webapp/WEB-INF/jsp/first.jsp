@@ -12,5 +12,8 @@
 </head>
 <body>
     ${hello}
+    <br>
+    <img src="${pageContext.request.contextPath}images/girl.jpg" alt="">
+    <img src="${pageContext.request.contextPath}images/jita.gif" alt="">
 </body>
 </html>

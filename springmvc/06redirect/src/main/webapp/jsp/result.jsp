@@ -25,10 +25,15 @@ ${param.type}
 ${newschool.schoolName}
 ${newschool.address}
 ${school}
+<br>
+-----
 ${school.schoolName}
+-----
+<br>
 ${sssccc}
 <%--加不加都一样 requestScope--%>
 ${requestScope.school.address}
+${param.schoolName}
 ${param.address}
 
 </body>

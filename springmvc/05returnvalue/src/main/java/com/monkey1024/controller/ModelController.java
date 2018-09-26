@@ -14,6 +14,7 @@ import java.util.List;
 
 @Controller
 public class ModelController {
+    //http://localhost:8086/modeldata.do?name=sadf
     @RequestMapping("/modeldata.do")
     public String modelData(Model model, String name) throws Exception {
         model.addAttribute("username",name);

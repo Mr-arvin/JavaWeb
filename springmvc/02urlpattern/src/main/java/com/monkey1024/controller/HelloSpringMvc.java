@@ -15,7 +15,7 @@ public class HelloSpringMvc implements Controller {
     @Override
     public ModelAndView handleRequest(HttpServletRequest request, HttpServletResponse response) throws Exception {
         ModelAndView mv = new ModelAndView();
-        mv.addObject("hello", "hello first spring mvc");
+        mv.addObject("hello", "hello second spring mvc");
         mv.setViewName("first");
         return mv;
     }
