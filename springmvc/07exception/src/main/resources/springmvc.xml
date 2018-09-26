@@ -19,19 +19,22 @@
     <mvc:resources mapping="/css/**" location="/css/" />
     <mvc:resources mapping="/js/**" location="/js/" />
 
-    <!--异常处理-->
-    <bean class="org.springframework.web.servlet.handler.SimpleMappingExceptionResolver">
-        <property name="exceptionMappings">
-            <props>
-                <!--首先，找这里，这里可以添加多个自定义异常-->
-                <prop key="com.monkey1024.myexception.MyException">error/myerror</prop>
-            </props>
-        </property>
-        <!--否则，再找这里，默认的异常跳转页面-->
-        <property name="defaultErrorView" value="error/error"></property>
-        <!--异常信息,在jsp页面中的el表达式可以直接获取value中的值（ex）-->
-        <property name="exceptionAttribute" value="ex"/>
-    </bean>
+    <!--自定义异常处理器-->
+    <bean class="com.monkey1024.myexception.MyExceptionResolver"></bean>
+
+    <!--&lt;!&ndash;异常处理&ndash;&gt;-->
+    <!--<bean class="org.springframework.web.servlet.handler.SimpleMappingExceptionResolver">-->
+        <!--<property name="exceptionMappings">-->
+            <!--<props>-->
+                <!--&lt;!&ndash;首先，找这里，这里可以添加多个自定义异常&ndash;&gt;-->
+                <!--<prop key="com.monkey1024.myexception.MyException">error/myerror</prop>-->
+            <!--</props>-->
+        <!--</property>-->
+        <!--&lt;!&ndash;否则，再找这里，默认的异常跳转页面&ndash;&gt;-->
+        <!--<property name="defaultErrorView" value="error/error"></property>-->
+        <!--&lt;!&ndash;异常信息,在jsp页面中的el表达式可以直接获取value中的值（ex）&ndash;&gt;-->
+        <!--<property name="exceptionAttribute" value="ex"/>-->
+    <!--</bean>-->
 
     <!-- 外部 视图解析器 注意，外部视图解析器需要放在内部视图解析器上面-->
     <bean class="org.springframework.web.servlet.view.BeanNameViewResolver"/>

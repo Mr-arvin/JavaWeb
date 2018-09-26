@@ -10,6 +10,11 @@
 <head>
     <title>默认异常跳转页面</title>
 </head>
+<style>
+    html,body {
+        background: gray;
+    }
+</style>
 <body>
 ${ex}
 </body>

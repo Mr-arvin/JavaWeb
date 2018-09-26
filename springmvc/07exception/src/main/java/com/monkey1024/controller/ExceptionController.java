@@ -13,12 +13,12 @@ public class ExceptionController {
     @RequestMapping("myException.do")
     public ModelAndView myException(String name) throws Exception {
         ModelAndView mv = new ModelAndView();
-        if("jack".equals(name)){
-            //http://localhost:8086/myException.do?name=jack
+        if("jack".equals(name)){//http://localhost:8086/myException.do?name=jack
+            //记录日志，或者做其它处理
             throw new MyException("我的自定义异常"); //MyException会被springmvc.xml里面的对应标签所匹配到
         }
         if(!"jack".equals(name)){
-            //http://localhost:8086/myException.do?name=andy
+            //记录日志，或者做其它处理
             throw new Exception("自带异常");
         }
 

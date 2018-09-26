@@ -12,7 +12,10 @@
         <module name="01firstmvc" />
         <module name="02urlpattern" />
         <module name="03annotation" />
+        <module name="04requestparams" />
+        <module name="05returnvalue" />
         <module name="06redirect" />
+        <module name="07exception" />
         <module name="_01firstmvc" />
         <module name="_02urlpattern" />
         <module name="_03annotation" />
