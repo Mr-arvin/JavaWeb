@@ -19,7 +19,7 @@
     <mvc:resources mapping="/css/**" location="/css/" />
     <mvc:resources mapping="/js/**" location="/js/" />
 
-    <!--自定义异常处理器-->
+    <!--注册自定义异常处理器-->
     <bean class="com.monkey1024.myexception.MyExceptionResolver"></bean>
 
     <!--&lt;!&ndash;异常处理&ndash;&gt;-->
