@@ -13,7 +13,7 @@
 
     <!--a：注册组件扫描器：注解需要扫描的类所在包的位置com.monkey1024.*-->
     <context:component-scan base-package="com.monkey1024.*"/>
-    
+
     <!--b：静态资源-->
     <mvc:resources mapping="/images/**" location="/images/" />
     <mvc:resources mapping="/css/**" location="/css/" />
@@ -24,16 +24,16 @@
 
     <!--&lt;!&ndash;异常处理&ndash;&gt;-->
     <!--<bean class="org.springframework.web.servlet.handler.SimpleMappingExceptionResolver">-->
-        <!--<property name="exceptionMappings">-->
-            <!--<props>-->
-                <!--&lt;!&ndash;首先，找这里，这里可以添加多个自定义异常&ndash;&gt;-->
-                <!--<prop key="com.monkey1024.myexception.MyException">error/myerror</prop>-->
-            <!--</props>-->
-        <!--</property>-->
-        <!--&lt;!&ndash;否则，再找这里，默认的异常跳转页面&ndash;&gt;-->
-        <!--<property name="defaultErrorView" value="error/error"></property>-->
-        <!--&lt;!&ndash;异常信息,在jsp页面中的el表达式可以直接获取value中的值（ex）&ndash;&gt;-->
-        <!--<property name="exceptionAttribute" value="ex"/>-->
+    <!--<property name="exceptionMappings">-->
+    <!--<props>-->
+    <!--&lt;!&ndash;首先，找这里，这里可以添加多个自定义异常&ndash;&gt;-->
+    <!--<prop key="com.monkey1024.myexception.MyException">error/myerror</prop>-->
+    <!--</props>-->
+    <!--</property>-->
+    <!--&lt;!&ndash;否则，再找这里，默认的异常跳转页面&ndash;&gt;-->
+    <!--<property name="defaultErrorView" value="error/error"></property>-->
+    <!--&lt;!&ndash;异常信息,在jsp页面中的el表达式可以直接获取value中的值（ex）&ndash;&gt;-->
+    <!--<property name="exceptionAttribute" value="ex"/>-->
     <!--</bean>-->
 
     <!-- 外部 视图解析器 注意，外部视图解析器需要放在内部视图解析器上面-->

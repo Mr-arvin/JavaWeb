@@ -1,1 +1,6 @@
+com/monkey1024/controller/PathController01.class
+com/monkey1024/controller/StudentController.class
 com/monkey1024/controller/ParamsController01.class
+com/monkey1024/bean/Student.class
+com/monkey1024/bean/School.class
+com/monkey1024/controller/ParamsController02.class

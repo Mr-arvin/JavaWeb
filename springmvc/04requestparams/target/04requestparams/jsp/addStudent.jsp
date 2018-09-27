@@ -20,7 +20,7 @@
 
 <br>
 
-<form action="/student/add2.do" method="get">
+<form action="/student/add2.do" method="post">
     姓名：<input type="text" name="name">
     <br>
     年龄：<input type="text" name="age">

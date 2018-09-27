@@ -15,6 +15,7 @@
     <module>06redirect</module>
       <module>05returnvalue</module>
       <module>07exception</module>
+      <module>09validation</module>
   </modules>
   <packaging>pom</packaging>
 
@@ -67,6 +68,13 @@
       <groupId>com.fasterxml.jackson.core</groupId>
       <artifactId>jackson-annotations</artifactId>
       <version>2.9.4</version>
+    </dependency>
+
+    <!--bean validation的数据验证规范-->
+    <dependency>
+      <groupId>org.hibernate</groupId>
+      <artifactId>hibernate-validator</artifactId>
+      <version>5.0.2.Final</version>
     </dependency>
 
   </dependencies>

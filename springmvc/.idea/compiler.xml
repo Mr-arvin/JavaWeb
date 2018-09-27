@@ -20,6 +20,7 @@
         <module name="_02urlpattern" />
         <module name="_03annotation" />
         <module name="_04requestparams" />
+        <module name="_09validation" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
