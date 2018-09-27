@@ -17,6 +17,7 @@
       <module>07exception</module>
       <module>09validation</module>
     <module>10upload</module>
+      <module>11upload</module>
   </modules>
   <packaging>pom</packaging>
 

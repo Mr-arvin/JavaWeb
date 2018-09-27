@@ -30,6 +30,6 @@
     </bean>
 
     <!--注册controller-->
-    <bean id="/hello.do" class="com.monkey1024.controller.HelloSpringMvc" />
+    <bean id="/hello.do" class="com.monkey1024.com.monkey1024.controller.HelloSpringMvc" />
 
 </beans>

@@ -18,6 +18,7 @@
         <module name="_06redirect" />
         <module name="_07exception" />
         <module name="_10upload" />
+        <module name="_11upload" />
       </profile>
     </annotationProcessing>
   </component>
