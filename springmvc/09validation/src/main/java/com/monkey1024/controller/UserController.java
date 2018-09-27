@@ -14,7 +14,7 @@ import java.util.List;
 @Controller
 @RequestMapping("/user")
 public class UserController {
-    //@Validated不能加在String类型或者基本数据类型的前面
+    //@Validated不能加在String类型或者基本数据类型的前面,user是个对象
     //BindingResult可以获取所有验证异常的信息
     @RequestMapping("/register.do")
     public ModelAndView register(@Validated User user, BindingResult br){
