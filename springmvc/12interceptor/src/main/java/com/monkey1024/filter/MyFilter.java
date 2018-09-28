@@ -13,7 +13,7 @@ public class MyFilter implements Filter {
     }
 
     public void doFilter(ServletRequest req, ServletResponse resp, FilterChain chain) throws ServletException, IOException {
-        System.out.print("过滤器中的doFileter方法");
+        System.out.println("过滤器中的doFileter方法");
         chain.doFilter(req, resp);
     }
 

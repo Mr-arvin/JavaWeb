@@ -9,6 +9,7 @@ public class InterceptorController {
     @RequestMapping("/test.do")
     public ModelAndView test() throws Exception {
         ModelAndView mv = new ModelAndView();
+        System.out.println("controller中的test方法");
         mv.setViewName("result");
         return mv;
     }

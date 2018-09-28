@@ -20,6 +20,14 @@
             <mvc:mapping path="/**"/>
             <bean class="com.monkey1024.interceptor.MyInterceptor"/>
         </mvc:interceptor>
+        <mvc:interceptor>
+            <mvc:mapping path="/**"/>
+            <bean class="com.monkey1024.interceptor.MyInterceptor2"/>
+        </mvc:interceptor>
+        <mvc:interceptor>
+            <mvc:mapping path="/**"/>
+            <bean class="com.monkey1024.interceptor.PremissionInterceptor"/>
+        </mvc:interceptor>
     </mvc:interceptors>
 
     <!--b：静态资源-->
