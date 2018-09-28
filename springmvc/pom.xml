@@ -18,6 +18,7 @@
       <module>09validation</module>
     <module>10upload</module>
       <module>11upload</module>
+      <module>12interceptor</module>
   </modules>
   <packaging>pom</packaging>
 

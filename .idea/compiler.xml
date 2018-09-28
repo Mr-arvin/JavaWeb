@@ -19,6 +19,7 @@
         <module name="_07exception" />
         <module name="_10upload" />
         <module name="_11upload" />
+        <module name="_12interceptor" />
       </profile>
     </annotationProcessing>
   </component>
