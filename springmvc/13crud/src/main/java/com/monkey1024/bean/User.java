@@ -5,7 +5,7 @@ import org.springframework.format.annotation.DateTimeFormat;
 import java.time.LocalDate;
 
 /**
- * 用户
+ * 用户信息
  */
 public class User {
 //    private String id; 严格来说这里应该有个主键id

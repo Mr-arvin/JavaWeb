@@ -19,13 +19,10 @@
 </head>
 <body>
 <div class="container theme-showcase" role="main">
-	<div id="msg">
-		<div class="alert alert-info" role="alert">删除成功!</div>
-	</div>
     <div class="page-header">
         <input type="text" name="id" placeholder="请输入id">
         <button id="query" type="button" class="btn btn-sm btn-primary">查询</button>
-        <button id="add" type="button" class="btn btn-sm btn-success">添加</button>
+        <a id="add" type="button" class="btn btn-sm btn-success" href="/jsp/user_add.jsp">添加</a>
     </div>
     <div class="row">
         <div class="">

@@ -15,7 +15,7 @@ public class DataUtil {
 
     private static HashMap<String, User> dataMap = new HashMap<>();
 
-    //模拟初始化数据
+    //模拟初始化数据 new User 得益于带参数的User构造方法
     static {
         User user1 = new User("jack", "13233332222", "北京", LocalDate.of(2012, 01, 01));
         User user2 = new User("paul", "13222223333", "南京", LocalDate.of(2002, 03, 02));

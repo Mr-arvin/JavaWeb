@@ -27,4 +27,17 @@ public class UserController {
         mv.setViewName("user_list");
         return mv;
     }
+
+
+    /**
+     * 添加用户
+     * @param user
+     * @return
+     * @throws Exception
+     */
+    @RequestMapping("/create.do")
+    public String create(User user) throws Exception {
+        DataUtil.create(user);
+        return "redirect:findAll.do";
+    }
 }
