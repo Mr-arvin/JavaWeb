@@ -20,6 +20,7 @@
         <module name="_10upload" />
         <module name="_11upload" />
         <module name="_12interceptor" />
+        <module name="_13crud" />
       </profile>
     </annotationProcessing>
   </component>

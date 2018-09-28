@@ -19,6 +19,7 @@
     <module>10upload</module>
       <module>11upload</module>
       <module>12interceptor</module>
+      <module>13crud</module>
   </modules>
   <packaging>pom</packaging>
 
