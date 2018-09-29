@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<typeInfoHistroy>
+<typeInfo handle="=07-01-servlet/\/Users\/xm\/tools\/apache-tomcat-7.0.70\/lib\/servlet-api.jar&lt;javax.servlet(Servlet.class[Servlet" modifiers="1537" timestamp="1500880222000"/>
+<typeInfo handle="=07-02-httpservlet/\/Users\/xm\/tools\/apache-tomcat-9.0.10\/lib\/servlet-api.jar&lt;javax.servlet.http(HttpServletMapping.class[HttpServletMapping" modifiers="1537" timestamp="1529490772000"/>
+<typeInfo handle="=07-02-httpservlet/\/Users\/xm\/tools\/apache-tomcat-9.0.10\/lib\/servlet-api.jar&lt;javax.servlet.http(HttpServlet.class[HttpServlet" modifiers="1057" timestamp="1529490772000"/>
+<typeInfo handle="=07-05-login/src&lt;com.monkey1024.dao{UserDao.java[UserDao" modifiers="513" timestamp="1532077722000"/>
+<typeInfo handle="=07-05-login/src&lt;com.monkey1024.service{UserService.java[UserService" modifiers="513" timestamp="1532103806000"/>
+<typeInfo handle="=07-06-listener/\/Users\/xm\/tools\/apache-tomcat-9.0.10\/lib\/servlet-api.jar&lt;javax.servlet(ServletRequestListener.class[ServletRequestListener" modifiers="1537" timestamp="1529490772000"/>
+<typeInfo handle="=07-06-listener/\/Users\/xm\/tools\/apache-tomcat-9.0.10\/lib\/servlet-api.jar&lt;javax.servlet(ServletRequest.class[ServletRequest" modifiers="1537" timestamp="1529490772000"/>
+<typeInfo handle="=07-07-filter/\/Library\/Java\/JavaVirtualMachines\/jdk1.8.0_111.jdk\/Contents\/Home\/jre\/lib\/rt.jar&lt;java.util.logging(Filter.class[Filter" modifiers="1537" timestamp="1474584629000"/>
+<typeInfo handle="=07-07-filter/\/Users\/xm\/tools\/apache-tomcat-9.0.10\/lib\/servlet-api.jar&lt;javax.servlet(Filter.class[Filter" modifiers="1537" timestamp="1529490772000"/>
+<typeInfo handle="=09-pool/\/Library\/Java\/JavaVirtualMachines\/jdk1.8.0_111.jdk\/Contents\/Home\/jre\/lib\/rt.jar&lt;javax.activation(DataSource.class[DataSource" modifiers="1537" timestamp="1474584629000"/>
+<typeInfo handle="=09-pool/\/Library\/Java\/JavaVirtualMachines\/jdk1.8.0_111.jdk\/Contents\/Home\/jre\/lib\/rt.jar&lt;javax.sql(DataSource.class[DataSource" modifiers="1537" timestamp="1474584629000"/>
+<typeInfo handle="=09-pool/\/Library\/Java\/JavaVirtualMachines\/jdk1.8.0_111.jdk\/Contents\/Home\/jre\/lib\/rt.jar&lt;java.sql(Connection.class[Connection" modifiers="1537" timestamp="1474584629000"/>
+<typeInfo handle="=09-pool/\/Library\/Java\/JavaVirtualMachines\/jdk1.8.0_111.jdk\/Contents\/Home\/jre\/lib\/rt.jar&lt;com.sun.corba.se.pept.transport(Connection.class[Connection" modifiers="1537" timestamp="1474584629000"/>
+</typeInfoHistroy>

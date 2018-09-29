@@ -1,0 +1,68 @@
+2018-07-12 14:01:56,090 [Worker-0] INFO  c.g.t.t.d.PublishedGradleVersions - Gradle version information cache is out-of-date. Trying to update.
+2018-07-12 14:43:11,261 [Worker-6] INFO  c.g.t.t.d.PublishedGradleVersions - Gradle version information cache is up-to-date. Trying to read.
+2018-07-12 14:56:13,516 [Worker-7] INFO  c.g.t.t.d.PublishedGradleVersions - Gradle version information cache is up-to-date. Trying to read.
+2018-07-18 22:53:10,906 [Worker-5] INFO  c.g.t.t.d.PublishedGradleVersions - Gradle version information cache is out-of-date. Trying to update.
+2018-07-20 14:31:57,372 [Worker-5] INFO  c.g.t.t.d.PublishedGradleVersions - Gradle version information cache is out-of-date. Trying to update.
+2018-07-25 09:15:16,176 [Worker-6] INFO  c.g.t.t.d.PublishedGradleVersions - Gradle version information cache is out-of-date. Trying to update.
+2018-07-30 15:47:38,180 [ModalContext] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading http://10.10.10.225:8081/nexus/content/groups/public/org/apache/maven/archetypes/maven-archetype-webapp/1.0/maven-archetype-webapp-1.0.jar
+2018-07-30 15:47:38,197 [ModalContext] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://10.10.10.225:8081/nexus/content/groups/public/org/apache/maven/archetypes/maven-archetype-webapp/1.0/maven-archetype-webapp-1.0.jar
+2018-07-30 15:47:44,811 [ModalContext] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading http://10.10.10.225:8081/nexus/content/groups/public/org/apache/maven/archetypes/maven-archetype-webapp/1.0/maven-archetype-webapp-1.0.pom
+2018-07-30 15:47:44,825 [ModalContext] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://10.10.10.225:8081/nexus/content/groups/public/org/apache/maven/archetypes/maven-archetype-webapp/1.0/maven-archetype-webapp-1.0.pom
+2018-07-30 15:49:05,952 [Worker-527] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Collecting project info '/pom.xml' /Users/xm/JavaStudy/Servlet/firstmaven/pom.xml
+2018-07-30 15:49:06,906 [Worker-527] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.maven.ide.eclipse.wtp.WarLifecycleMapping lifecycle mapping for MavenProject: com.monkey1024:firstmaven:0.0.1-SNAPSHOT @ /Users/xm/JavaStudy/Servlet/firstmaven/pom.xml.
+2018-07-30 15:49:07,619 [Worker-527] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /firstmaven/src/main/java
+2018-07-30 15:49:07,620 [Worker-527] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /firstmaven/src/main/resources
+2018-07-30 15:49:07,620 [Worker-527] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /firstmaven/src/test/java
+2018-07-30 15:49:08,893 [Worker-527] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Imported and configured 1 project(s) in 2 sec
+2018-07-30 15:49:09,188 [Worker-516] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-07-30 15:49:09,195 [Worker-516] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2018-07-30 15:49:09,197 [Worker-516] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-07-30 15:49:09,198 [Worker-516] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/xm/JavaStudy/Servlet/firstmaven/src/test/resources
+2018-07-30 15:49:34,679 [Worker-528] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-07-30 15:49:34,682 [Worker-528] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2018-07-30 15:49:34,684 [Worker-528] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-07-30 15:49:34,684 [Worker-528] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/xm/JavaStudy/Servlet/firstmaven/src/test/resources
+2018-07-30 15:49:52,143 [Worker-528] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-07-30 15:49:52,146 [Worker-528] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2018-07-30 15:49:52,147 [Worker-528] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-07-30 15:49:52,147 [Worker-528] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/xm/JavaStudy/Servlet/firstmaven/src/test/resources
+2018-07-30 15:51:30,551 [Worker-527] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.maven.ide.eclipse.wtp.WarLifecycleMapping lifecycle mapping for MavenProject: com.monkey1024:firstmaven:0.0.1-SNAPSHOT @ /Users/xm/JavaStudy/Servlet/firstmaven/pom.xml.
+2018-07-30 15:51:30,561 [Worker-527] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading http://10.10.10.225:8081/nexus/content/groups/public/javax/servlet/javax.servlet-api/3.1.0/javax.servlet-api-3.1.0.pom
+2018-07-30 15:51:30,570 [Worker-527] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://10.10.10.225:8081/nexus/content/groups/public/javax/servlet/javax.servlet-api/3.1.0/javax.servlet-api-3.1.0.pom
+2018-07-30 15:51:30,584 [Worker-527] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading http://10.10.10.225:8081/nexus/content/groups/public/javax/servlet/javax.servlet-api/3.1.0/javax.servlet-api-3.1.0.jar
+2018-07-30 15:51:30,594 [Worker-527] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://10.10.10.225:8081/nexus/content/groups/public/javax/servlet/javax.servlet-api/3.1.0/javax.servlet-api-3.1.0.jar
+2018-07-30 15:51:31,128 [Worker-527] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-07-30 15:51:31,134 [Worker-527] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2018-07-30 15:51:31,136 [Worker-527] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-07-30 15:51:31,137 [Worker-527] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/xm/JavaStudy/Servlet/firstmaven/src/test/resources
+2018-07-30 15:51:31,138 [Worker-527] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Changed resources require a complete clean of filtered resources of firstmaven
+2018-07-30 15:51:31,139 [Worker-527] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Executing resource filtering for firstmaven
+2018-07-30 15:51:31,144 [Worker-527] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-07-30 15:51:32,192 [Worker-516] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-07-30 15:51:32,193 [Worker-516] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2018-07-30 15:51:32,194 [Worker-516] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-07-30 15:51:32,199 [Worker-516] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/xm/JavaStudy/Servlet/firstmaven/src/test/resources
+2018-07-30 15:51:50,141 [Worker-527] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.maven.ide.eclipse.wtp.WarLifecycleMapping lifecycle mapping for MavenProject: com.monkey1024:firstmaven:0.0.1-SNAPSHOT @ /Users/xm/JavaStudy/Servlet/firstmaven/pom.xml.
+2018-07-30 15:51:50,711 [Worker-527] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-07-30 15:51:50,716 [Worker-527] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2018-07-30 15:51:50,719 [Worker-527] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-07-30 15:51:50,721 [Worker-527] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/xm/JavaStudy/Servlet/firstmaven/src/test/resources
+2018-07-30 15:51:50,721 [Worker-527] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Changed resources require a complete clean of filtered resources of firstmaven
+2018-07-30 15:51:50,721 [Worker-527] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Executing resource filtering for firstmaven
+2018-07-30 15:51:50,729 [Worker-527] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-07-30 15:53:22,162 [Worker-528] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-07-30 15:53:22,163 [Worker-528] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2018-07-30 15:53:22,164 [Worker-528] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-07-30 15:53:22,165 [Worker-528] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/xm/JavaStudy/Servlet/firstmaven/src/test/resources
+2018-07-30 16:07:04,168 [Worker-526] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-07-30 16:07:04,170 [Worker-526] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2018-07-30 16:07:04,172 [Worker-526] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-07-30 16:07:04,173 [Worker-526] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/xm/JavaStudy/Servlet/firstmaven/src/test/resources
+2018-07-30 16:07:27,069 [Worker-527] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-07-30 16:07:27,070 [Worker-527] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2018-07-30 16:07:27,072 [Worker-527] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-07-30 16:07:27,072 [Worker-527] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/xm/JavaStudy/Servlet/firstmaven/src/test/resources
+2018-07-30 16:08:52,722 [Worker-531] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-07-30 16:08:52,723 [Worker-531] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2018-07-30 16:08:52,724 [Worker-531] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-07-30 16:08:52,730 [Worker-531] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource

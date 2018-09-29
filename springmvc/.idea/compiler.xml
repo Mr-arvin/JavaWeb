@@ -1,9 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="CompilerConfiguration">
-    <excludeFromCompile>
-      <file url="file://$PROJECT_DIR$/04requestparams/src/main/java/com/monkey1024/controller/ParamsController01.java" />
-    </excludeFromCompile>
     <annotationProcessing>
       <profile name="Maven default annotation processors profile" enabled="true">
         <sourceOutputDir name="target/generated-sources/annotations" />
@@ -16,17 +13,15 @@
         <module name="05returnvalue" />
         <module name="06redirect" />
         <module name="07exception" />
-        <module name="_01firstmvc" />
-        <module name="_02urlpattern" />
-        <module name="_03annotation" />
-        <module name="_04requestparams" />
-        <module name="_09validation" />
+        <module name="09validation" />
+        <module name="_05returnvalue" />
+        <module name="_06redirect" />
+        <module name="_07exception" />
+        <module name="_10upload" />
+        <module name="_11upload" />
+        <module name="_12interceptor" />
+        <module name="_13crud" />
       </profile>
     </annotationProcessing>
-    <bytecodeTargetLevel>
-      <module name="_01firstmvc" target="1.8" />
-      <module name="_02urlpattern" target="1.8" />
-      <module name="_03annotation" target="1.8" />
-    </bytecodeTargetLevel>
   </component>
 </project>

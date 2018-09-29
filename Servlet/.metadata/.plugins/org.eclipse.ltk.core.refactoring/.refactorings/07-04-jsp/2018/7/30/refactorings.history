@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Copy element &apos;lib&apos; to &apos;lib&apos;&#x0A;- Original project: &apos;07-04-jsp&apos;&#x0A;- Destination element: &apos;lib&apos;&#x0A;- Original element: &apos;lib&apos;" description="Copy folder" element1="WebContent/WEB-INF/lib" files="0" flags="589830" folders="1" id="org.eclipse.jdt.ui.copy" policy="org.eclipse.jdt.ui.copyResources" stamp="1532325156182" target="/07-06-listener/WebContent/WEB-INF/lib" units="0" version="1.0"/>
+</session>

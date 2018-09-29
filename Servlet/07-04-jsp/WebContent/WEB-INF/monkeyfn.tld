@@ -1,0 +1,21 @@
+    <taglib xmlns="http://java.sun.com/xml/ns/j2ee"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="http://java.sun.com/xml/ns/j2ee http://java.sun.com/xml/ns/j2ee/web-jsptaglibrary_2_0.xsd"
+    version="2.0">
+
+        <!-- 指定定义的当前函数库版本号。随意指定。 -->
+        <tlib-version>1.0</tlib-version>
+        <!-- 指定该函数库的名称，一个函数库一个名称，随意命名，通常与文件名相同，这个名称在后面 JSP 中要使用。 -->
+        <short-name>monkeyfn</short-name>
+        <!-- 指定该函数库所对应的 URL，一个函数库一个 URL， URL 随意，在后面 JSP 中要使用该 URL -->
+        <uri>http://www.monkey1024.com/jsp/monkeyTld</uri>
+
+        <function>
+            <!-- 指定将来在 JSP 的 EL 中使用该函数的名称。一般与类中静态方法同名。 -->
+            <name>toUpper</name>
+            <!-- 指定该函数定义在哪个类中 -->
+            <function-class>function.StringFunction</function-class>
+            <!-- 指定类中的方法 -->
+            <function-signature>java.lang.String toUpper( java.lang.String )</function-signature>
+        </function>
+    </taglib>

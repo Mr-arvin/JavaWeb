@@ -1,0 +1,3 @@
+12:34:45.762 [main] INFO  com.monkey1024.log4j2.Log4j2Test - info信息
+12:34:45.766 [main] WARN  com.monkey1024.log4j2.Log4j2Test - warn信息
+12:34:45.766 [main] ERROR com.monkey1024.log4j2.Log4j2Test - error信息

@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://java.sun.com/xml/ns/javaee" xsi:schemaLocation="http://java.sun.com/xml/ns/javaee http://java.sun.com/xml/ns/javaee/web-app_2_5.xsd" id="WebApp_ID" version="2.5">
+  <display-name>07-01-servlet</display-name>
+  <welcome-file-list>
+    <welcome-file>index.html</welcome-file>
+    <welcome-file>index.htm</welcome-file>
+    <welcome-file>index.jsp</welcome-file>
+    <welcome-file>default.html</welcome-file>
+    <welcome-file>default.htm</welcome-file>
+    <welcome-file>default.jsp</welcome-file>
+  </welcome-file-list>
+  
+  <context-param>
+  	<param-name>MySqlDriver</param-name>
+  	<param-value>com.mysql.jdbc.driver</param-value>
+  </context-param>
+  <context-param>
+  	<param-name>dbURL</param-name>
+  	<param-value>jdbc:mysql:</param-value>
+  </context-param>
+  
+  <!-- 创建一个servlet实例 -->
+  <servlet>
+  	<!-- 给servlet取一个名字，该名字需与servlet-mapping的servlet-name一致 -->
+  	<servlet-name>firstServlet</servlet-name>
+  	<!-- servlet的包名+类名 -->
+  	<servlet-class>com.monkey1024.servlet.FirstServlet</servlet-class>
+  </servlet>
+  <!-- servlet映射 给servlet一个可以访问的url地址 -->
+  <servlet-mapping>
+  	<!-- servlet的名字，与servlet中的servlet-name一致 -->
+  	<servlet-name>firstServlet</servlet-name>
+  	<!-- URL地址:  http://localhost:8080/07-01-servlet/hello-->
+  	<url-pattern>/hello</url-pattern>
+  </servlet-mapping>
+  
+  <servlet>
+  	<servlet-name>lifeServlet</servlet-name>
+  	<servlet-class>com.monkey1024.servlet.LifeServlet</servlet-class>
+  	<!-- load-on-startup让tomcat启动时实例化servlet并调用init方法 2是一个tomcat创建实例化的优先级，越小越有限，数值相同随机 -->
+  	<!-- <load-on-startup>2</load-on-startup> -->
+  </servlet>
+  <servlet-mapping>
+  	<servlet-name>lifeServlet</servlet-name>
+  	<url-pattern>/life</url-pattern>
+  </servlet-mapping>
+  
+  <servlet>
+  	<servlet-name>bugServlet</servlet-name>
+  	<servlet-class>com.monkey1024.servlet.BugServlet</servlet-class>
+  	<!-- load-on-startup让tomcat启动时实例化servlet并调用init方法 2是一个tomcat创建实例化的优先级，越小越有限，数值相同随机 -->
+  	<!-- <load-on-startup>2</load-on-startup> -->
+  </servlet>
+  <servlet-mapping>
+  	<servlet-name>bugServlet</servlet-name>
+  	<url-pattern>/bug</url-pattern>
+  </servlet-mapping>
+  
+  <servlet>
+  	<servlet-name>configtest</servlet-name>
+  	<servlet-class>methods.ConfigTest01</servlet-class>
+  	<!-- 初始化参数 -->
+  	<init-param>
+  		<param-name>username</param-name>
+  		<param-value>monkey1024</param-value>  		
+  	</init-param>
+  	<init-param>
+  		<param-name>password</param-name>
+  		<param-value>123456</param-value>
+  	</init-param>
+  </servlet>
+  <servlet-mapping>
+  	<servlet-name>configtest</servlet-name>
+  	<url-pattern>/config</url-pattern>
+  </servlet-mapping>
+  
+  <servlet>
+  	<servlet-name>context1</servlet-name>
+  	<servlet-class>methods.ContextTest01</servlet-class>
+  </servlet>
+  <servlet-mapping>
+  	<servlet-name>context1</servlet-name>
+  	<url-pattern>/context01</url-pattern>
+  </servlet-mapping>
+  
+  <servlet>
+  	<servlet-name>context2</servlet-name>
+  	<servlet-class>methods.ContextTest02</servlet-class>
+  </servlet>
+  <servlet-mapping>
+  	<servlet-name>context2</servlet-name>
+  	<url-pattern>/context02</url-pattern>
+  </servlet-mapping>
+</web-app>

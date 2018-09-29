@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- 关闭的是log4j2去记录自己的日志 status="OFF" 其它选项 WARN INFO ERROR DEBUG -->
+<Configuration status="OFF">
+    <Appenders>
+        <!-- console -->
+        <Console name="Console" target="SYSTEM_OUT">
+            <PatternLayout pattern="%d{HH:mm:ss.SSS} [%t] %-5level %logger{36} - %msg%n" />
+        </Console>
+        <!-- file 其中append是以追加的方式记录 -->
+        <File name="file" fileName="log/output.log" append="true">
+            <PatternLayout pattern="%d{HH:mm:ss.SSS} [%t] %-5level %logger{36} - %msg%n" />
+        </File>
+        <!-- rollingFile -->
+        <RollingFile name="roolingFlie" fileName="logs/app.log"
+            filePattern="logs/$${date:yyyy-MM}/app-%d{MM-dd-yyyy}-%i.log.gz">
+            <PatternLayout pattern="%d{HH:mm:ss.SSS} [%t] %-5level %logger{36} - %msg%n" />
+            <SizeBasedTriggeringPolicy size="1kb" />
+        </RollingFile>
+    </Appenders>
+    <Loggers>
+        <Root level="info">
+            <AppenderRef ref="Console" />
+            <AppenderRef ref="file" />
+        </Root>
+    </Loggers>
+</Configuration>
