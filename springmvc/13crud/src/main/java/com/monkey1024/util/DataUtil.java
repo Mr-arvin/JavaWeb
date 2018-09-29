@@ -50,13 +50,19 @@ public class DataUtil {
      */
     public static void create(User user) throws Exception {
         //遍历map，找到key的最大值
-        Set<Map.Entry<String, User>> entries = dataMap.entrySet();
-        Iterator<Map.Entry<String, User>> iterator = entries.iterator();
+        //通过entrySet()方法将map集合中的映射关系取出（这个关系就是Map.Entry类型）
+        //Set<Map.Entry<String, User>> entries = dataMap.entrySet();
+        //将关系集合entrySet进行迭代，存放到迭代器中
+        //Iterator<Map.Entry<String, User>> iterator = entries.iterator();
+
+        Iterator<Map.Entry<String, User>> iterator = dataMap.entrySet().iterator();
 
         int max = 3;
 
         while (iterator.hasNext()){
+            //获取Map.Entry关系对象next
             Map.Entry<String, User> next = iterator.next();//这样就拿到map了
+            //通过关系对象获取key 转成int类型
             int i = Integer.parseInt(next.getKey());//拿到key
             if(max < i){
                 max = i;
@@ -65,6 +71,9 @@ public class DataUtil {
 
         //将最大值做自增运算,然后作为key放到map里面 ,+ ""表示转成string类型
         dataMap.put(++max + "",user);
+
+        //　Set<Map.Entry<K,V>> entrySet() 返回映射所包含的映射关系的Set集合（一个关系就是
+        // 一个键-值对），就是把(key-value)作为一个整体一对一对地存放到Set集合当中的。
 
     }
 

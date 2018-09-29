@@ -28,6 +28,18 @@ public class UserController {
         return mv;
     }
 
+    @RequestMapping("/findById.do")
+    public ModelAndView findById(String id) throws Exception {
+        ModelAndView mv = new ModelAndView();
+        User user = DataUtil.findUserById(id);
+        HashMap<String,User> allUser = new HashMap<>();
+        allUser.put(id,user);
+        mv.addObject("id",id);
+        mv.addObject("allUser",allUser);
+        mv.setViewName("user_list");
+        return mv;
+    }
+
 
     /**
      * 添加用户

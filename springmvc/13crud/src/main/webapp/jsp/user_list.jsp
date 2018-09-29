@@ -20,9 +20,11 @@
 <body>
 <div class="container theme-showcase" role="main">
     <div class="page-header">
-        <input type="text" name="id" placeholder="请输入id">
-        <button id="query" type="button" class="btn btn-sm btn-primary">查询</button>
-        <a id="add" type="button" class="btn btn-sm btn-success" href="/jsp/user_add.jsp">添加</a>
+        <form id="query-by-id" action="/findById.do" method="post">
+            <input type="text" id="inputId" name="id" placeholder="请输入id" value="${id}">
+            <button id="query" type="button" class="btn btn-sm btn-primary">查询</button>
+            <a id="add" type="button" class="btn btn-sm btn-success" href="/jsp/user_add.jsp">添加</a>
+        </form>
     </div>
     <div class="row">
         <div class="">
@@ -60,7 +62,14 @@
 <script src="/js/bootstrap.js"></script>
 <script>
     $(function () {
-
+        $("#query").click(function () {
+            var userid = $("#inputId").val();
+            if(userid == ""){
+                $(location).attr("href","/findAll.do");
+            }else {
+                $("#query-by-id").submit();
+            }
+        })
     });
 </script>
 </body>
