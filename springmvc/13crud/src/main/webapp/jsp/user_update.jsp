@@ -17,22 +17,23 @@
 <body>
 <div class="page-header"></div>
 <div class="container">
-    <form action="" method="post" style="max-width: 330px;padding: 15px;margin: 0 auto;">
+    <form action="/update.do" method="post" style="max-width: 330px;padding: 15px;margin: 0 auto;">
+        <input type="hidden" name="id" value="${id}">
         <div class="form-group">
             <label for="name">姓名:</label>
-            <input type="text" class="form-control" id="name">
+            <input type="text" class="form-control" id="name" name="name" value="${user.name}">
         </div>
         <div class="form-group">
             <label for="phone">手机:</label>
-            <input type="text" class="form-control" id="phone">
+            <input type="text" class="form-control" id="phone" name="phone" value="${user.phone}">
         </div>
         <div class="form-group">
             <label for="birthday">生日:</label>
-            <input type="date" class="form-control" id="birthday">
+            <input type="date" class="form-control" id="birthday" name="birthday" value="${user.birthday}">
         </div>
         <div class="form-group">
             <label for="address">地址:</label>
-            <input type="text" class="form-control" id="address">
+            <input type="text" class="form-control" id="address" name="address" value="${user.address}">
         </div>
 
         <input type="submit" value="提交">

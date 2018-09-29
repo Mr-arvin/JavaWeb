@@ -48,8 +48,8 @@
                         <td>${user.value.birthday}</td>
                         <td>${user.value.address}</td>
                         <td>
-                            <button type="button" class="btn btn-sm btn-info">删除</button>
-                            <button type="button" class="btn btn-sm btn-warning">修改</button>
+                            <a type="button" class="btn btn-sm btn-info" href="/delete.do?id=${user.key}">删除</a>
+                            <a type="button" class="btn btn-sm btn-warning" href="/goUpdate.do?id=${user.key}">修改</a>
                         </td>
                     </tr>
                 </a:forEach>
