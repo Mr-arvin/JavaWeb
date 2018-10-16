@@ -2,22 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c7bc4afe-7105-40f5-bbaa-a831a669d9ab" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/02refactor/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/02refactor/src/main/java/com/monkey1024/bean/Student.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/02refactor/src/main/java/com/monkey1024/dao/StudentDao.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/02refactor/src/main/java/com/monkey1024/dao/StudentMapper.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/02refactor/src/main/java/com/monkey1024/dao/impl/StudentDaoImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/02refactor/src/main/java/com/monkey1024/test/StudentTest01.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/02refactor/src/main/java/com/monkey1024/util/MyBatisUtil.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/02refactor/src/main/resources/db.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/02refactor/src/main/resources/log4j.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/02refactor/src/main/resources/mybatis.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/01firstmybatis/src/main/java/com/monkey1024/test/StudentTest01.java" beforeDir="false" afterPath="$PROJECT_DIR$/01firstmybatis/src/main/java/com/monkey1024/test/StudentTest01.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/01firstmybatis/target/classes/com/monkey1024/test/StudentTest01.class" beforeDir="false" afterPath="$PROJECT_DIR$/01firstmybatis/target/classes/com/monkey1024/test/StudentTest01.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/02refactor/src/main/java/com/monkey1024/bean/Student.java" beforeDir="false" afterPath="$PROJECT_DIR$/02refactor/src/main/java/com/monkey1024/bean/Student.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/02refactor/src/main/java/com/monkey1024/dao/StudentMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/02refactor/src/main/java/com/monkey1024/dao/StudentMapper.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/02refactor/src/main/java/com/monkey1024/dao/impl/StudentDaoImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/02refactor/src/main/java/com/monkey1024/dao/impl/StudentDaoImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/02refactor/src/main/java/com/monkey1024/test/StudentTest01.java" beforeDir="false" afterPath="$PROJECT_DIR$/02refactor/src/main/java/com/monkey1024/test/StudentTest01.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/02refactor/src/main/java/com/monkey1024/util/MyBatisUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/02refactor/src/main/java/com/monkey1024/util/MyBatisUtil.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/02refactor/src/main/resources/mybatis.xml" beforeDir="false" afterPath="$PROJECT_DIR$/02refactor/src/main/resources/mybatis.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/target/" />
     <ignored path="$PROJECT_DIR$/01firstmybatis/target/" />
@@ -48,33 +38,34 @@
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="dummy" value="3" />
-          <entry key="java" value="706" />
+          <entry key="java" value="929" />
           <entry key="properties" value="85" />
-          <entry key="xml" value="229" />
+          <entry key="xml" value="445" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="706" />
+          <entry key="JAVA" value="929" />
           <entry key="PLAIN_TEXT" value="3" />
           <entry key="Properties" value="85" />
-          <entry key="XML" value="229" />
+          <entry key="SQL" value="9" />
+          <entry key="XML" value="436" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="java" value="16" />
+          <entry key="java" value="18" />
           <entry key="jsp" value="1" />
           <entry key="properties" value="3" />
-          <entry key="xml" value="8" />
+          <entry key="xml" value="9" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="JAVA" value="16" />
+          <entry key="JAVA" value="18" />
           <entry key="JSP" value="1" />
           <entry key="Properties" value="3" />
-          <entry key="XML" value="8" />
+          <entry key="XML" value="9" />
         </counts>
       </usages-collector>
     </session>
@@ -84,8 +75,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/02refactor/src/main/java/com/monkey1024/util/MyBatisUtil.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="525">
-              <caret line="35" column="9" lean-forward="true" selection-start-line="35" selection-start-column="9" selection-end-line="35" selection-end-column="9" />
+            <state relative-caret-position="528">
+              <caret line="37" column="72" selection-start-line="37" selection-start-column="72" selection-end-line="37" selection-end-column="72" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -96,8 +87,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/02refactor/src/main/java/com/monkey1024/dao/impl/StudentDaoImpl.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="315">
-              <caret line="21" lean-forward="true" selection-start-line="21" selection-end-line="21" />
+            <state relative-caret-position="240">
+              <caret line="16" column="47" selection-start-line="16" selection-start-column="47" selection-end-line="16" selection-end-column="47" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -108,8 +99,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/02refactor/src/main/resources/mybatis.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="390">
-              <caret line="26" column="68" selection-start-line="26" selection-start-column="68" selection-end-line="26" selection-end-column="68" />
+            <state relative-caret-position="330">
+              <caret line="23" column="31" lean-forward="true" selection-start-line="23" selection-start-column="31" selection-end-line="23" selection-end-column="31" />
             </state>
           </provider>
         </entry>
@@ -123,14 +114,41 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/02refactor/src/main/java/com/monkey1024/test/StudentTest01.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="150">
-              <caret line="10" column="32" lean-forward="true" selection-start-line="10" selection-start-column="32" selection-end-line="10" selection-end-column="32" />
+            <state relative-caret-position="255">
+              <caret line="17" column="36" lean-forward="true" selection-start-line="17" selection-start-column="36" selection-end-line="17" selection-end-column="36" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/02refactor/src/main/java/com/monkey1024/dao/StudentMapper.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="195">
+              <caret line="13" column="9" lean-forward="true" selection-start-line="12" selection-start-column="13" selection-end-line="13" selection-end-column="9" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/02refactor/src/main/java/com/monkey1024/dao/StudentDao.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="60">
+              <caret line="4" column="17" selection-start-line="4" selection-start-column="17" selection-end-line="4" selection-end-column="17" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/02refactor/src/main/java/com/monkey1024/bean/Student.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="360">
+              <caret line="26" lean-forward="true" selection-start-line="26" selection-end-line="26" />
             </state>
           </provider>
         </entry>
@@ -169,11 +187,13 @@
         <option value="$PROJECT_DIR$/01firstmybatis/src/main/resources/mybatis.xml" />
         <option value="$PROJECT_DIR$/01firstmybatis/src/main/java/com/monkey1024/test/StudentTest01.java" />
         <option value="$PROJECT_DIR$/02refactor/pom.xml" />
-        <option value="$PROJECT_DIR$/02refactor/src/main/java/com/monkey1024/util/MyBatisUtil.java" />
-        <option value="$PROJECT_DIR$/02refactor/src/main/java/com/monkey1024/dao/impl/StudentDaoImpl.java" />
-        <option value="$PROJECT_DIR$/02refactor/src/main/resources/mybatis.xml" />
-        <option value="$PROJECT_DIR$/02refactor/src/main/java/com/monkey1024/test/StudentTest01.java" />
         <option value="$PROJECT_DIR$/02refactor/src/main/resources/db.properties" />
+        <option value="$PROJECT_DIR$/02refactor/src/main/resources/mybatis.xml" />
+        <option value="$PROJECT_DIR$/02refactor/src/main/java/com/monkey1024/util/MyBatisUtil.java" />
+        <option value="$PROJECT_DIR$/02refactor/src/main/java/com/monkey1024/bean/Student.java" />
+        <option value="$PROJECT_DIR$/02refactor/src/main/java/com/monkey1024/test/StudentTest01.java" />
+        <option value="$PROJECT_DIR$/02refactor/src/main/java/com/monkey1024/dao/StudentMapper.xml" />
+        <option value="$PROJECT_DIR$/02refactor/src/main/java/com/monkey1024/dao/impl/StudentDaoImpl.java" />
       </list>
     </option>
   </component>
@@ -332,6 +352,16 @@
               <item name="_02refactor" type="2674bda8:ScopeViewTreeModel$GroupNode" />
               <item name="src" type="9f88c78c:ScopeViewTreeModel$FileNode" />
               <item name="main" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="java" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="com" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="monkey1024" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="util" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+            </path>
+            <path>
+              <item name="learnmybatis" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="_02refactor" type="2674bda8:ScopeViewTreeModel$GroupNode" />
+              <item name="src" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="main" type="9f88c78c:ScopeViewTreeModel$FileNode" />
               <item name="resources" type="9f88c78c:ScopeViewTreeModel$FileNode" />
             </path>
             <path>
@@ -481,7 +511,7 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1539692394362" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1539702866533" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
@@ -508,6 +538,20 @@
     </option>
   </component>
   <component name="RunManager" selected="JUnit.StudentTest01.insertStudent (1)">
+    <configuration name="StudentTest01 (1)" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="_02refactor" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.monkey1024.test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.monkey1024.test" />
+      <option name="MAIN_CLASS_NAME" value="com.monkey1024.test.StudentTest01" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="StudentTest01" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="_01firstmybatis" />
       <extension name="coverage">
@@ -558,10 +602,12 @@
       <item itemvalue="JUnit.StudentTest01.insertStudent" />
       <item itemvalue="JUnit.StudentTest01" />
       <item itemvalue="JUnit.StudentTest01.insertStudent (1)" />
+      <item itemvalue="JUnit.StudentTest01 (1)" />
     </list>
     <recent_temporary>
       <list>
         <item itemvalue="JUnit.StudentTest01.insertStudent (1)" />
+        <item itemvalue="JUnit.StudentTest01 (1)" />
         <item itemvalue="JUnit.StudentTest01.insertStudent" />
         <item itemvalue="JUnit.StudentTest01" />
       </list>
@@ -579,17 +625,11 @@
       <updated>1539673268413</updated>
       <workItem from="1539673269763" duration="9171000" />
       <workItem from="1539690540680" duration="39000" />
-      <workItem from="1539690592988" duration="1901000" />
+      <workItem from="1539690592988" duration="4276000" />
     </task>
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="StudentTest01_insertStudent - 2018.10.16 at 19h 10m 55s.xml">
-      <configuration name="StudentTest01.insertStudent" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="StudentTest01_insertStudent - 2018.10.16 at 19h 12m 28s.xml">
-      <configuration name="StudentTest01.insertStudent" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="StudentTest01_insertStudent - 2018.10.16 at 19h 49m 25s.xml">
       <configuration name="StudentTest01.insertStudent" configurationId="JUnit" />
     </history-entry>
@@ -614,9 +654,15 @@
     <history-entry file="StudentTest01_insertStudent_(1) - 2018.10.16 at 20h 18m 39s.xml">
       <configuration name="StudentTest01.insertStudent (1)" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="StudentTest01_(1) - 2018.10.16 at 23h 03m 04s.xml">
+      <configuration name="StudentTest01 (1)" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="StudentTest01_insertStudent_(1) - 2018.10.16 at 23h 04m 23s.xml">
+      <configuration name="StudentTest01.insertStudent (1)" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="11211000" />
+    <option name="totallyTimeSpent" value="13586000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-115" y="-1080" width="1920" height="1080" extended-state="0" />
@@ -715,16 +761,6 @@
     <entry file="file://$PROJECT_DIR$/02refactor/src/main/resources/log4j.properties">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/02refactor/src/main/java/com/monkey1024/dao/StudentMapper.xml">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/02refactor/src/main/java/com/monkey1024/bean/Student.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/01firstmybatis/src/main/java/com/monkey1024/test/StudentTest01.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="165">
@@ -749,13 +785,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/02refactor/src/main/java/com/monkey1024/dao/StudentDao.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="4" column="17" selection-start-line="4" selection-start-column="17" selection-end-line="4" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_111.jdk/Contents/Home/src.zip!/java/io/Closeable.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="195">
@@ -770,27 +799,34 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/02refactor/src/main/resources/mybatis.xml">
+    <entry file="file://$PROJECT_DIR$/02refactor/src/main/java/com/monkey1024/dao/StudentDao.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="390">
-          <caret line="26" column="68" selection-start-line="26" selection-start-column="68" selection-end-line="26" selection-end-column="68" />
+        <state relative-caret-position="60">
+          <caret line="4" column="17" selection-start-line="4" selection-start-column="17" selection-end-line="4" selection-end-column="17" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/02refactor/src/main/java/com/monkey1024/dao/impl/StudentDaoImpl.java">
+    <entry file="file://$PROJECT_DIR$/02refactor/src/main/java/com/monkey1024/util/MyBatisUtil.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="315">
-          <caret line="21" lean-forward="true" selection-start-line="21" selection-end-line="21" />
+        <state relative-caret-position="528">
+          <caret line="37" column="72" selection-start-line="37" selection-start-column="72" selection-end-line="37" selection-end-column="72" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/02refactor/src/main/java/com/monkey1024/util/MyBatisUtil.java">
+    <entry file="file://$PROJECT_DIR$/02refactor/src/main/java/com/monkey1024/bean/Student.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="525">
-          <caret line="35" column="9" lean-forward="true" selection-start-line="35" selection-start-column="9" selection-end-line="35" selection-end-column="9" />
+        <state relative-caret-position="360">
+          <caret line="26" lean-forward="true" selection-start-line="26" selection-end-line="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/02refactor/src/main/java/com/monkey1024/test/StudentTest01.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="17" column="36" lean-forward="true" selection-start-line="17" selection-start-column="36" selection-end-line="17" selection-end-column="36" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -804,13 +840,27 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/02refactor/src/main/java/com/monkey1024/test/StudentTest01.java">
+    <entry file="file://$PROJECT_DIR$/02refactor/src/main/resources/mybatis.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="10" column="32" lean-forward="true" selection-start-line="10" selection-start-column="32" selection-end-line="10" selection-end-column="32" />
+        <state relative-caret-position="330">
+          <caret line="23" column="31" lean-forward="true" selection-start-line="23" selection-start-column="31" selection-end-line="23" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/02refactor/src/main/java/com/monkey1024/dao/impl/StudentDaoImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="16" column="47" selection-start-line="16" selection-start-column="47" selection-end-line="16" selection-end-column="47" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/02refactor/src/main/java/com/monkey1024/dao/StudentMapper.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="195">
+          <caret line="13" column="9" lean-forward="true" selection-start-line="12" selection-start-column="13" selection-end-line="13" selection-end-column="9" />
         </state>
       </provider>
     </entry>

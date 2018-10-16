@@ -35,6 +35,6 @@ public class MyBatisUtil {
             e.printStackTrace();
         }
 
-        return sqlSessionFactory.openSession();
+        return sqlSessionFactory.openSession(false); //false和不填一样为手动提交事务，如果改成true，那么就不需要在调用的时候commit了，也就是自动提交事务；
     }
 }

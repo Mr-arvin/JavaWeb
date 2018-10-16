@@ -12,6 +12,9 @@ public class StudentTest01 {
         StudentDao studentDao = new StudentDaoImpl();
         Student student = new Student("大淼", 52, 98.50);
 
+        //id的默认值是0
+        System.out.println(student);
         studentDao.insertStudent(student);
+        System.out.println(student);
     }
 }

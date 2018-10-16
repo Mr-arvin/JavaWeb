@@ -14,8 +14,11 @@ public class StudentDaoImpl implements StudentDao {
         try(SqlSession sqlSession = MyBatisUtil.getSqlSession()){
             //新增操作
             sqlSession.insert("insertStudent", student);
+            //铸键的生成和事务是否提交关系，只要执行了sql语句，那就会分配一个主键
+            System.out.println("提交事务之前：" + student);
             //提交事务
             sqlSession.commit();
+            //回滚事务 sqlSession.rollback();
         }
     }
 }

@@ -1,10 +1,23 @@
 package com.monkey1024.bean;
 
-public class Student {
+//import org.apache.ibatis.type.Alias;
+//手动的设置别名  parameterType="stu"
+//@Alias("stu")
+public class  Student {
     private int id;
     private String name;
     private int age;
     private double score;
+
+    @Override
+    public String toString() {
+        return "Student{" +
+                "id=" + id +
+                ", name='" + name + '\'' +
+                ", age=" + age +
+                ", score=" + score +
+                '}';
+    }
 
     public Student(String name, int age, double score) {
         this.name = name;
