@@ -6,6 +6,8 @@ import com.monkey1024.dao.impl.StudentDaoImpl;
 import org.junit.Before;
 import org.junit.Test;
 
+import java.util.List;
+
 public class StudentTest01 {
 
     private StudentDao studentDao;
@@ -17,7 +19,7 @@ public class StudentTest01 {
 
     @Test
     public void insertStudent(){
-        Student student = new Student("大淼", 52, 98.50);
+        Student student = new Student("大淼4", 52, 98.50);
 
         //id的默认值是0
         System.out.println(student);
@@ -34,7 +36,18 @@ public class StudentTest01 {
     @Test
     public void updateStudent() {
         Student student = new Student("毛毛周", 60, 99);
-        student.setId(5);
+        student.setId(18);
         studentDao.updateStudent(student);
+    }
+
+    @Test
+    public void selectAllStudent() {
+        List<Student> students = studentDao.selectAllStudent();
+
+        //jdk8新的foreach方法+lambda表达式
+        students.forEach((s -> {
+            System.out.println(s);
+        }));
+
     }
 }

@@ -5,6 +5,8 @@ import com.monkey1024.dao.StudentDao;
 import com.monkey1024.util.MyBatisUtil;
 import org.apache.ibatis.session.SqlSession;
 
+import java.util.List;
+
 
 public class StudentDaoImpl implements StudentDao {
 
@@ -37,6 +39,20 @@ public class StudentDaoImpl implements StudentDao {
         SqlSession sqlSession = MyBatisUtil.getSqlSession();
         sqlSession.update("updateStudent", student);
         sqlSession.commit();
+
+    }
+
+    @Override
+    public List<Student> selectAllStudent() {
+        List<Student> result = null;
+
+        try (SqlSession sqlSession = MyBatisUtil.getSqlSession()) {
+            //查询
+            result = sqlSession.selectList("selectAllStudent");
+
+        }
+
+        return result;
 
     }
 }

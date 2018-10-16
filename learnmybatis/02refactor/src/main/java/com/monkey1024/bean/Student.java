@@ -19,6 +19,18 @@ public class  Student {
                 '}';
     }
 
+    // 一定要有无参和全参数的构造函数，两者不可缺一，不然查询的时候会报错
+    public Student(){
+        super();
+    }
+
+    public Student(int id, String name, int age, double score) {
+        this.id = id;
+        this.name = name;
+        this.age = age;
+        this.score = score;
+    }
+
     public Student(String name, int age, double score) {
         this.name = name;
         this.age = age;

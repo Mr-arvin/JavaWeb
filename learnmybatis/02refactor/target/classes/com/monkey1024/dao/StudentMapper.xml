@@ -20,4 +20,10 @@
     <update id="updateStudent">
         UPDATE t_student set name=#{name},age=#{age},score=#{score} WHERE id=#{id}
     </update>
+
+    <!--resultType 的Student大小写无所谓  ,且要写成单条数据对应的类，而非arraylist-->
+    <select id="selectAllStudent" resultType="student">
+        <!--查询中尽量不要出现*，会影响sql的执行效率-->
+        SELECT id,name,age,score FROM t_student
+    </select>
 </mapper>
