@@ -10,7 +10,7 @@ public class StudentTest01 {
     @Test
     public void insertStudent(){
         StudentDao studentDao = new StudentDaoImpl();
-        Student student = new Student("邢淼", 52, 98.50);
+        Student student = new Student("大淼", 52, 98.50);
 
         studentDao.insertStudent(student);
     }
