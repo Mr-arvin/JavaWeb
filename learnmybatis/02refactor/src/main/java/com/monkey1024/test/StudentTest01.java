@@ -3,18 +3,38 @@ package com.monkey1024.test;
 import com.monkey1024.bean.Student;
 import com.monkey1024.dao.StudentDao;
 import com.monkey1024.dao.impl.StudentDaoImpl;
+import org.junit.Before;
 import org.junit.Test;
 
 public class StudentTest01 {
 
+    private StudentDao studentDao;
+
+    @Before
+    public void initStudentDao(){
+        studentDao = new StudentDaoImpl();
+    }
+
     @Test
     public void insertStudent(){
-        StudentDao studentDao = new StudentDaoImpl();
         Student student = new Student("大淼", 52, 98.50);
 
         //id的默认值是0
         System.out.println(student);
         studentDao.insertStudent(student);
         System.out.println(student);
+    }
+
+    @Test
+    public  void deleteStudenidt() {
+        //删除id是3的数据
+        studentDao.deleteStudent(3);
+    }
+
+    @Test
+    public void updateStudent() {
+        Student student = new Student("毛毛周", 60, 99);
+        student.setId(5);
+        studentDao.updateStudent(student);
     }
 }

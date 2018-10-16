@@ -8,7 +8,16 @@
         INSERT INTO t_student(name,age,score) VALUES (#{name},#{age},#{score})
         <!--获取自增的主键-->
         <selectKey resultType="int" keyProperty="id" order="AFTER">
-          SELECT id, name FROM t_student
+          SELECT @@identity
         </selectKey>
     </insert>
+
+    <delete id="deleteStudent">
+        <!--这里的IDS只是起着占位符的作用,改成任意都行-->
+        DELETE FROM t_student WHERE id=#{IDS}
+    </delete>
+
+    <update id="updateStudent">
+        UPDATE t_student set name=#{name},age=#{age},score=#{score} WHERE id=#{id}
+    </update>
 </mapper>

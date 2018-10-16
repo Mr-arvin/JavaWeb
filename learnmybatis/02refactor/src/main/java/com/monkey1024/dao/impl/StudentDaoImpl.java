@@ -21,4 +21,22 @@ public class StudentDaoImpl implements StudentDao {
             //回滚事务 sqlSession.rollback();
         }
     }
+
+    @Override
+    public void deleteStudent(int id) {
+        try(SqlSession sqlSession = MyBatisUtil.getSqlSession();){
+
+            sqlSession.delete("deleteStudent", id);
+
+            sqlSession.commit();
+        }
+    }
+
+    @Override
+    public void updateStudent(Student student) {
+        SqlSession sqlSession = MyBatisUtil.getSqlSession();
+        sqlSession.update("updateStudent", student);
+        sqlSession.commit();
+
+    }
 }

@@ -11,4 +11,13 @@
           SELECT @@identity
         </selectKey>
     </insert>
+
+    <delete id="deleteStudent">
+        <!--这里的IDS只是起着占位符的作用,改成任意都行-->
+        DELETE FROM t_student WHERE id=#{IDS}
+    </delete>
+
+    <update id="updateStudent">
+        UPDATE t_student set name=#{name},age=#{age},score=#{score} WHERE id=#{id}
+    </update>
 </mapper>
