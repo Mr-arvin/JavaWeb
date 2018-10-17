@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.monkey1024.dao.StudentDao">
+
+    <select id="selectIf" resultType="student">
+        SELECT id,name,age,score
+        FROM t_student_crudone
+        WHERE 1=1
+        <if test="name != null and name !=''">
+            AND name like '%' #{name} '%'
+        </if>
+        <if test="age>0">
+            AND age>#{age}
+        </if>
+    </select>
+
+    <select id="selectWhere" resultType="student">
+        SELECT id,name,age,score
+        FROM t_student_crudone
+
+        <where>
+            <if test="name != null and name !=''">
+                AND name like '%' #{name} '%'
+            </if>
+            <if test="age>0">
+                AND age>#{age}
+            </if>
+        </where>
+    </select>
+
+    <select id="selectChoose" resultType="student">
+        SELECT id,name,age,score
+        FROM t_student_crudone
+
+        <where>
+            <choose>
+                <when test="name != null and name != ''">
+                    name like '%' #{name} '%'
+                </when>
+                <when test="age>0">
+                    age>#{age}
+                </when>
+                <otherwise>
+                    1 != 1
+                </otherwise>
+            </choose>
+        </where>
+    </select>
+
+</mapper>

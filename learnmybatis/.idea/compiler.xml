@@ -10,6 +10,7 @@
         <module name="_02refactor" />
         <module name="_03crudone" />
         <module name="_04proxy" />
+        <module name="_05dynamicsql" />
       </profile>
     </annotationProcessing>
   </component>

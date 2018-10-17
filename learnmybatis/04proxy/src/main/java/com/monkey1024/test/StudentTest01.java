@@ -65,9 +65,9 @@ public class StudentTest01 {
         List<Student> students = studentDao.selectAllStudent();
 
         //jdk8新的foreach方法+lambda表达式
-        students.forEach((s -> {
+        students.forEach(s -> {
             System.out.println(s);
-        }));
+        });
 
     }
 
@@ -80,9 +80,9 @@ public class StudentTest01 {
     @Test
     public void selectStudentByName() {
         List<Student> students = studentDao.selectStudentByName("淼");
-        students.forEach((s -> {
+        students.forEach(s -> {
             System.out.println(s);
-        }));
+        });
 
     }
 

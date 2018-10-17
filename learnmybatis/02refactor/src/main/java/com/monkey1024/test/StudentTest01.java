@@ -18,7 +18,7 @@ public class StudentTest01 {
     }
 
     @Test
-    public void insertStudent(){
+    public void insertStudent() throws Exception{
         Student student = new Student("大淼4", 52, 98.50);
 
         //id的默认值是0
@@ -28,41 +28,41 @@ public class StudentTest01 {
     }
 
     @Test
-    public  void deleteStudenidt() {
+    public  void deleteStudenidt() throws Exception{
         //删除id是3的数据
         studentDao.deleteStudent(3);
     }
 
     @Test
-    public void updateStudent() {
+    public void updateStudent() throws Exception{
         Student student = new Student("毛毛周", 60, 99);
         student.setId(18);
         studentDao.updateStudent(student);
     }
 
     @Test
-    public void selectAllStudent() {
+    public void selectAllStudent() throws Exception{
         List<Student> students = studentDao.selectAllStudent();
 
         //jdk8新的foreach方法+lambda表达式
-        students.forEach((s -> {
+        students.forEach(s -> {
             System.out.println(s);
-        }));
+        });
 
     }
 
     @Test
-    public void selectStudentById() {
+    public void selectStudentById() throws Exception{
         Student student = studentDao.selectStudentById(20);
         System.out.println(student);
     }
 
     @Test
-    public void selectStudentByName() {
+    public void selectStudentByName() throws Exception{
         List<Student> students = studentDao.selectStudentByName("淼");
-        students.forEach((s -> {
+        students.forEach(s -> {
             System.out.println(s);
-        }));
+        });
 
     }
 }
