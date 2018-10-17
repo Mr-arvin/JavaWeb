@@ -9,6 +9,7 @@
         <module name="_01firstmybatis" />
         <module name="_02refactor" />
         <module name="_03crudone" />
+        <module name="_04proxy" />
       </profile>
     </annotationProcessing>
   </component>

@@ -2,12 +2,26 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c7bc4afe-7105-40f5-bbaa-a831a669d9ab" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/03crudone/src/main/java/com/monkey1024/dao/StudentMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/03crudone/src/main/java/com/monkey1024/dao/StudentMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/04proxy/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/04proxy/src/main/java/com/monkey1024/bean/Student.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/04proxy/src/main/java/com/monkey1024/dao/StudentDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/04proxy/src/main/java/com/monkey1024/dao/StudentMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/04proxy/src/main/java/com/monkey1024/test/StudentTest01.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/04proxy/src/main/java/com/monkey1024/util/MyBatisUtil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/04proxy/src/main/resources/db.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/04proxy/src/main/resources/log4j.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/04proxy/src/main/resources/mybatis.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/02refactor/src/main/java/com/monkey1024/dao/StudentDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/02refactor/src/main/java/com/monkey1024/dao/StudentDao.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/target/" />
     <ignored path="$PROJECT_DIR$/01firstmybatis/target/" />
     <ignored path="$PROJECT_DIR$/02refactor/target/" />
     <ignored path="$PROJECT_DIR$/03crudone/target/" />
+    <ignored path="$PROJECT_DIR$/04proxy/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -34,34 +48,34 @@
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="dummy" value="3" />
-          <entry key="java" value="2066" />
-          <entry key="properties" value="85" />
-          <entry key="xml" value="1170" />
+          <entry key="java" value="2252" />
+          <entry key="properties" value="128" />
+          <entry key="xml" value="1210" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="2066" />
+          <entry key="JAVA" value="2252" />
           <entry key="PLAIN_TEXT" value="3" />
-          <entry key="Properties" value="85" />
+          <entry key="Properties" value="128" />
           <entry key="SQL" value="19" />
-          <entry key="XML" value="1151" />
+          <entry key="XML" value="1191" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="java" value="28" />
+          <entry key="java" value="39" />
           <entry key="jsp" value="2" />
-          <entry key="properties" value="5" />
-          <entry key="xml" value="15" />
+          <entry key="properties" value="8" />
+          <entry key="xml" value="20" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="JAVA" value="28" />
+          <entry key="JAVA" value="39" />
           <entry key="JSP" value="2" />
-          <entry key="Properties" value="5" />
-          <entry key="XML" value="15" />
+          <entry key="Properties" value="8" />
+          <entry key="XML" value="20" />
         </counts>
       </usages-collector>
     </session>
@@ -69,10 +83,10 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/03crudone/src/main/java/com/monkey1024/test/StudentTest01.java">
+        <entry file="file://$PROJECT_DIR$/04proxy/src/main/java/com/monkey1024/dao/StudentDao.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="387">
-              <caret line="70" column="58" lean-forward="true" selection-start-line="70" selection-start-column="58" selection-end-line="70" selection-end-column="58" />
+            <state relative-caret-position="135">
+              <caret line="9" column="22" selection-start-line="9" selection-start-column="9" selection-end-line="9" selection-end-column="22" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -81,41 +95,72 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/03crudone/src/main/java/com/monkey1024/bean/Student.java">
+        <entry file="file://$PROJECT_DIR$/04proxy/src/main/java/com/monkey1024/dao/StudentMapper.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="289">
-              <caret line="35" column="5" lean-forward="true" selection-start-line="35" selection-start-column="5" selection-end-line="35" selection-end-column="5" />
+            <state relative-caret-position="255">
+              <caret line="20" column="75" selection-start-line="20" selection-start-column="75" selection-end-line="20" selection-end-column="75" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/02refactor/src/main/java/com/monkey1024/dao/StudentDao.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="150">
+              <caret line="12" column="23" selection-start-line="12" selection-start-column="23" selection-end-line="12" selection-end-column="23" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/04proxy/src/main/java/com/monkey1024/bean/Student.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="107">
+              <caret line="10" column="14" selection-start-line="10" selection-start-column="14" selection-end-line="10" selection-end-column="14" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/04proxy/src/main/java/com/monkey1024/test/StudentTest01.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="111">
+              <caret line="51" column="28" selection-start-line="51" selection-start-column="28" selection-end-line="51" selection-end-column="28" />
               <folding>
-                <element signature="e#1461#1462#0" expanded="true" />
-                <element signature="e#1487#1488#0" expanded="true" />
-                <element signature="e#1525#1526#0" expanded="true" />
-                <element signature="e#1555#1556#0" expanded="true" />
+                <element signature="imports" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/03crudone/src/main/resources/mybatis.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-240" />
-          </provider>
+        <entry file="file://$PROJECT_DIR$/04proxy/src/main/resources/db.properties">
+          <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/03crudone/src/main/java/com/monkey1024/dao/StudentMapper.xml">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/04proxy/src/main/resources/log4j.properties">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="412">
-              <caret line="49" column="41" selection-start-line="49" selection-start-column="41" selection-end-line="49" selection-end-column="41" />
+            <state>
+              <caret column="16" selection-start-column="6" selection-end-column="16" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/03crudone/src/main/java/com/monkey1024/dao/StudentDao.java">
+        <entry file="file://$PROJECT_DIR$/04proxy/src/main/resources/mybatis.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="165">
-              <caret line="13" column="37" selection-start-line="13" selection-start-column="37" selection-end-line="13" selection-end-column="37" />
+            <state relative-caret-position="240">
+              <caret line="32" column="20" lean-forward="true" selection-start-line="32" selection-start-column="20" selection-end-line="32" selection-end-column="20" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/04proxy/src/main/java/com/monkey1024/util/MyBatisUtil.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="120">
+              <caret line="21" column="29" selection-start-line="21" selection-start-column="29" selection-end-line="21" selection-end-column="29" />
             </state>
           </provider>
         </entry>
@@ -123,26 +168,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/03crudone/src/main/java/com/monkey1024/dao/impl/StudentDaoImpl.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="217">
+            <state relative-caret-position="681">
               <caret line="82" column="35" selection-start-line="82" selection-start-column="19" selection-end-line="82" selection-end-column="35" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/03crudone/pom.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="300">
-              <caret line="20" column="27" selection-start-line="20" selection-start-column="27" selection-end-line="20" selection-end-column="27" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/02refactor/pom.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="75">
-              <caret line="24" column="5" selection-start-line="24" selection-start-column="5" selection-end-line="30" selection-end-column="19" />
             </state>
           </provider>
         </entry>
@@ -159,9 +186,10 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>insertStudent</find>
       <find>selectAllStudent</find>
       <find>t_student</find>
+      <find>insertStudent</find>
+      <find>updateStudent</find>
     </findStrings>
     <replaceStrings>
       <replace>t_student_crudone</replace>
@@ -189,7 +217,6 @@
         <option value="$PROJECT_DIR$/02refactor/src/main/resources/db.properties" />
         <option value="$PROJECT_DIR$/02refactor/src/main/resources/mybatis.xml" />
         <option value="$PROJECT_DIR$/02refactor/src/main/java/com/monkey1024/util/MyBatisUtil.java" />
-        <option value="$PROJECT_DIR$/02refactor/src/main/java/com/monkey1024/dao/StudentDao.java" />
         <option value="$PROJECT_DIR$/02refactor/src/main/java/com/monkey1024/dao/impl/StudentDaoImpl.java" />
         <option value="$PROJECT_DIR$/02refactor/src/main/java/com/monkey1024/test/StudentTest01.java" />
         <option value="$PROJECT_DIR$/02refactor/src/main/java/com/monkey1024/dao/StudentMapper.xml" />
@@ -200,6 +227,11 @@
         <option value="$PROJECT_DIR$/03crudone/src/main/java/com/monkey1024/test/StudentTest01.java" />
         <option value="$PROJECT_DIR$/03crudone/src/main/java/com/monkey1024/bean/Student.java" />
         <option value="$PROJECT_DIR$/03crudone/src/main/java/com/monkey1024/dao/StudentMapper.xml" />
+        <option value="$PROJECT_DIR$/04proxy/pom.xml" />
+        <option value="$PROJECT_DIR$/04proxy/src/main/resources/log4j.properties" />
+        <option value="$PROJECT_DIR$/02refactor/src/main/java/com/monkey1024/dao/StudentDao.java" />
+        <option value="$PROJECT_DIR$/04proxy/src/main/java/com/monkey1024/dao/StudentMapper.xml" />
+        <option value="$PROJECT_DIR$/04proxy/src/main/java/com/monkey1024/test/StudentTest01.java" />
       </list>
     </option>
   </component>
@@ -246,29 +278,29 @@
           <expand>
             <path>
               <item name="learnmybatis" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
-              <item name="_03crudone" type="2674bda8:ScopeViewTreeModel$GroupNode" />
+              <item name="_04proxy" type="2674bda8:ScopeViewTreeModel$GroupNode" />
             </path>
             <path>
               <item name="learnmybatis" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
-              <item name="_03crudone" type="2674bda8:ScopeViewTreeModel$GroupNode" />
+              <item name="_04proxy" type="2674bda8:ScopeViewTreeModel$GroupNode" />
               <item name="src" type="9f88c78c:ScopeViewTreeModel$FileNode" />
             </path>
             <path>
               <item name="learnmybatis" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
-              <item name="_03crudone" type="2674bda8:ScopeViewTreeModel$GroupNode" />
+              <item name="_04proxy" type="2674bda8:ScopeViewTreeModel$GroupNode" />
               <item name="src" type="9f88c78c:ScopeViewTreeModel$FileNode" />
               <item name="main" type="9f88c78c:ScopeViewTreeModel$FileNode" />
             </path>
             <path>
               <item name="learnmybatis" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
-              <item name="_03crudone" type="2674bda8:ScopeViewTreeModel$GroupNode" />
+              <item name="_04proxy" type="2674bda8:ScopeViewTreeModel$GroupNode" />
               <item name="src" type="9f88c78c:ScopeViewTreeModel$FileNode" />
               <item name="main" type="9f88c78c:ScopeViewTreeModel$FileNode" />
               <item name="java" type="9f88c78c:ScopeViewTreeModel$FileNode" />
             </path>
             <path>
               <item name="learnmybatis" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
-              <item name="_03crudone" type="2674bda8:ScopeViewTreeModel$GroupNode" />
+              <item name="_04proxy" type="2674bda8:ScopeViewTreeModel$GroupNode" />
               <item name="src" type="9f88c78c:ScopeViewTreeModel$FileNode" />
               <item name="main" type="9f88c78c:ScopeViewTreeModel$FileNode" />
               <item name="java" type="9f88c78c:ScopeViewTreeModel$FileNode" />
@@ -276,7 +308,7 @@
             </path>
             <path>
               <item name="learnmybatis" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
-              <item name="_03crudone" type="2674bda8:ScopeViewTreeModel$GroupNode" />
+              <item name="_04proxy" type="2674bda8:ScopeViewTreeModel$GroupNode" />
               <item name="src" type="9f88c78c:ScopeViewTreeModel$FileNode" />
               <item name="main" type="9f88c78c:ScopeViewTreeModel$FileNode" />
               <item name="java" type="9f88c78c:ScopeViewTreeModel$FileNode" />
@@ -285,7 +317,7 @@
             </path>
             <path>
               <item name="learnmybatis" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
-              <item name="_03crudone" type="2674bda8:ScopeViewTreeModel$GroupNode" />
+              <item name="_04proxy" type="2674bda8:ScopeViewTreeModel$GroupNode" />
               <item name="src" type="9f88c78c:ScopeViewTreeModel$FileNode" />
               <item name="main" type="9f88c78c:ScopeViewTreeModel$FileNode" />
               <item name="java" type="9f88c78c:ScopeViewTreeModel$FileNode" />
@@ -295,7 +327,7 @@
             </path>
             <path>
               <item name="learnmybatis" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
-              <item name="_03crudone" type="2674bda8:ScopeViewTreeModel$GroupNode" />
+              <item name="_04proxy" type="2674bda8:ScopeViewTreeModel$GroupNode" />
               <item name="src" type="9f88c78c:ScopeViewTreeModel$FileNode" />
               <item name="main" type="9f88c78c:ScopeViewTreeModel$FileNode" />
               <item name="java" type="9f88c78c:ScopeViewTreeModel$FileNode" />
@@ -305,18 +337,7 @@
             </path>
             <path>
               <item name="learnmybatis" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
-              <item name="_03crudone" type="2674bda8:ScopeViewTreeModel$GroupNode" />
-              <item name="src" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-              <item name="main" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-              <item name="java" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-              <item name="com" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-              <item name="monkey1024" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-              <item name="dao" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-              <item name="impl" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-            </path>
-            <path>
-              <item name="learnmybatis" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
-              <item name="_03crudone" type="2674bda8:ScopeViewTreeModel$GroupNode" />
+              <item name="_04proxy" type="2674bda8:ScopeViewTreeModel$GroupNode" />
               <item name="src" type="9f88c78c:ScopeViewTreeModel$FileNode" />
               <item name="main" type="9f88c78c:ScopeViewTreeModel$FileNode" />
               <item name="java" type="9f88c78c:ScopeViewTreeModel$FileNode" />
@@ -326,7 +347,7 @@
             </path>
             <path>
               <item name="learnmybatis" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
-              <item name="_03crudone" type="2674bda8:ScopeViewTreeModel$GroupNode" />
+              <item name="_04proxy" type="2674bda8:ScopeViewTreeModel$GroupNode" />
               <item name="src" type="9f88c78c:ScopeViewTreeModel$FileNode" />
               <item name="main" type="9f88c78c:ScopeViewTreeModel$FileNode" />
               <item name="java" type="9f88c78c:ScopeViewTreeModel$FileNode" />
@@ -336,7 +357,7 @@
             </path>
             <path>
               <item name="learnmybatis" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
-              <item name="_03crudone" type="2674bda8:ScopeViewTreeModel$GroupNode" />
+              <item name="_04proxy" type="2674bda8:ScopeViewTreeModel$GroupNode" />
               <item name="src" type="9f88c78c:ScopeViewTreeModel$FileNode" />
               <item name="main" type="9f88c78c:ScopeViewTreeModel$FileNode" />
               <item name="resources" type="9f88c78c:ScopeViewTreeModel$FileNode" />
@@ -477,7 +498,7 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1539744055100" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1539784954335" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="project.structure.last.edited" value="Modules" />
@@ -487,10 +508,11 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/04proxy/src/main/resources" />
+      <recent name="$PROJECT_DIR$/04proxy/src/main/java" />
       <recent name="$PROJECT_DIR$/03crudone/src/main/resources" />
       <recent name="$PROJECT_DIR$/03crudone/src/main/java" />
       <recent name="$PROJECT_DIR$/02refactor/src/main/java" />
-      <recent name="$PROJECT_DIR$/02refactor/src/main/resources" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$" />
@@ -508,9 +530,9 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.StudentTest01.selectStudentPwd">
-    <configuration name="StudentTest01" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="_03crudone" />
+  <component name="RunManager" selected="JUnit.StudentTest01.deleteStudenidt">
+    <configuration name="StudentTest01.deleteStudenidt" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="_04proxy" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="com.monkey1024.test.*" />
@@ -519,28 +541,14 @@
       </extension>
       <option name="PACKAGE_NAME" value="com.monkey1024.test" />
       <option name="MAIN_CLASS_NAME" value="com.monkey1024.test.StudentTest01" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="StudentTest01.selectStudentById (1)" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="_03crudone" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.monkey1024.test.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.monkey1024.test" />
-      <option name="MAIN_CLASS_NAME" value="com.monkey1024.test.StudentTest01" />
-      <option name="METHOD_NAME" value="selectStudentById" />
+      <option name="METHOD_NAME" value="deleteStudenidt" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="StudentTest01.selectStudentByName (1)" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="_03crudone" />
+    <configuration name="StudentTest01.insertStudent" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="_04proxy" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="com.monkey1024.test.*" />
@@ -549,14 +557,30 @@
       </extension>
       <option name="PACKAGE_NAME" value="com.monkey1024.test" />
       <option name="MAIN_CLASS_NAME" value="com.monkey1024.test.StudentTest01" />
-      <option name="METHOD_NAME" value="selectStudentByName" />
+      <option name="METHOD_NAME" value="insertStudent" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="StudentTest01.selectAllStudent" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="_04proxy" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.monkey1024.test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.monkey1024.test" />
+      <option name="MAIN_CLASS_NAME" value="com.monkey1024.test.StudentTest01" />
+      <option name="METHOD_NAME" value="selectAllStudent" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <configuration name="StudentTest01.selectStudentByName" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="_02refactor" />
+      <module name="_04proxy" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="com.monkey1024.test.*" />
@@ -571,8 +595,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="StudentTest01.selectStudentPwd" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="_03crudone" />
+    <configuration name="StudentTest01.updateStudent" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="_04proxy" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="com.monkey1024.test.*" />
@@ -581,26 +605,26 @@
       </extension>
       <option name="PACKAGE_NAME" value="com.monkey1024.test" />
       <option name="MAIN_CLASS_NAME" value="com.monkey1024.test.StudentTest01" />
-      <option name="METHOD_NAME" value="selectStudentPwd" />
+      <option name="METHOD_NAME" value="updateStudent" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <list>
+      <item itemvalue="JUnit.StudentTest01.selectAllStudent" />
+      <item itemvalue="JUnit.StudentTest01.updateStudent" />
+      <item itemvalue="JUnit.StudentTest01.insertStudent" />
       <item itemvalue="JUnit.StudentTest01.selectStudentByName" />
-      <item itemvalue="JUnit.StudentTest01.selectStudentById (1)" />
-      <item itemvalue="JUnit.StudentTest01.selectStudentByName (1)" />
-      <item itemvalue="JUnit.StudentTest01.selectStudentPwd" />
-      <item itemvalue="JUnit.StudentTest01" />
+      <item itemvalue="JUnit.StudentTest01.deleteStudenidt" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.StudentTest01.selectStudentPwd" />
-        <item itemvalue="JUnit.StudentTest01" />
-        <item itemvalue="JUnit.StudentTest01.selectStudentByName (1)" />
-        <item itemvalue="JUnit.StudentTest01.selectStudentById (1)" />
+        <item itemvalue="JUnit.StudentTest01.deleteStudenidt" />
+        <item itemvalue="JUnit.StudentTest01.updateStudent" />
+        <item itemvalue="JUnit.StudentTest01.insertStudent" />
         <item itemvalue="JUnit.StudentTest01.selectStudentByName" />
+        <item itemvalue="JUnit.StudentTest01.selectAllStudent" />
       </list>
     </recent_temporary>
   </component>
@@ -616,50 +640,50 @@
       <updated>1539673268413</updated>
       <workItem from="1539673269763" duration="9171000" />
       <workItem from="1539690540680" duration="39000" />
-      <workItem from="1539690592988" duration="13369000" />
+      <workItem from="1539690592988" duration="19653000" />
     </task>
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="StudentTest01_selectStudentByName - 2018.10.17 at 09h 34m 38s.xml">
+    <history-entry file="StudentTest01_updateStudent - 2018.10.17 at 13h 47m 20s.xml">
+      <configuration name="StudentTest01.updateStudent" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="StudentTest01_insertStudent - 2018.10.17 at 13h 50m 15s.xml">
+      <configuration name="StudentTest01.insertStudent" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="StudentTest01_selectStudentByName - 2018.10.17 at 13h 51m 32s.xml">
       <configuration name="StudentTest01.selectStudentByName" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="StudentTest01_selectStudentByName - 2018.10.17 at 09h 35m 18s.xml">
-      <configuration name="StudentTest01.selectStudentByName" configurationId="JUnit" />
+    <history-entry file="StudentTest01_deleteStudenidt - 2018.10.17 at 17h 10m 35s.xml">
+      <configuration name="StudentTest01.deleteStudenidt" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="StudentTest01_selectStudentByName - 2018.10.17 at 09h 49m 55s.xml">
-      <configuration name="StudentTest01.selectStudentByName" configurationId="JUnit" />
+    <history-entry file="StudentTest01_insertStudent - 2018.10.17 at 17h 43m 24s.xml">
+      <configuration name="StudentTest01.insertStudent" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="StudentTest01_selectStudentById_(1) - 2018.10.17 at 09h 58m 11s.xml">
-      <configuration name="StudentTest01.selectStudentById (1)" configurationId="JUnit" />
+    <history-entry file="StudentTest01_updateStudent - 2018.10.17 at 17h 43m 33s.xml">
+      <configuration name="StudentTest01.updateStudent" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="StudentTest01_selectStudentByName_(1) - 2018.10.17 at 10h 03m 56s.xml">
-      <configuration name="StudentTest01.selectStudentByName (1)" configurationId="JUnit" />
+    <history-entry file="StudentTest01_insertStudent - 2018.10.17 at 21h 51m 36s.xml">
+      <configuration name="StudentTest01.insertStudent" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="StudentTest01_selectStudentByName_(1) - 2018.10.17 at 10h 05m 46s.xml">
-      <configuration name="StudentTest01.selectStudentByName (1)" configurationId="JUnit" />
+    <history-entry file="StudentTest01_updateStudent - 2018.10.17 at 22h 01m 23s.xml">
+      <configuration name="StudentTest01.updateStudent" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="StudentTest01_selectStudentPwd - 2018.10.17 at 10h 09m 40s.xml">
-      <configuration name="StudentTest01.selectStudentPwd" configurationId="JUnit" />
+    <history-entry file="StudentTest01_updateStudent - 2018.10.17 at 22h 01m 42s.xml">
+      <configuration name="StudentTest01.updateStudent" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="StudentTest01 - 2018.10.17 at 10h 09m 57s.xml">
-      <configuration name="StudentTest01" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="StudentTest01_selectStudentPwd - 2018.10.17 at 10h 10m 09s.xml">
-      <configuration name="StudentTest01.selectStudentPwd" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="StudentTest01_selectStudentPwd - 2018.10.17 at 10h 13m 53s.xml">
-      <configuration name="StudentTest01.selectStudentPwd" configurationId="JUnit" />
+    <history-entry file="StudentTest01_deleteStudenidt - 2018.10.17 at 22h 02m 00s.xml">
+      <configuration name="StudentTest01.deleteStudenidt" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="22679000" />
+    <option name="totallyTimeSpent" value="28963000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="15" y="23" width="917" height="990" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.31542858" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.3462857" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="UI Designer" order="3" />
@@ -670,7 +694,7 @@
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
       <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.38084632" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.3997773" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -679,7 +703,7 @@
       <window_info anchor="bottom" id="Java Enterprise" order="9" />
       <window_info anchor="bottom" id="Database Changes" order="10" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="11" />
-      <window_info anchor="bottom" id="Messages" order="12" weight="0.3045067" />
+      <window_info anchor="bottom" id="Messages" order="12" weight="0.3040089" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -827,13 +851,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/02refactor/src/main/java/com/monkey1024/dao/StudentDao.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="10" column="18" selection-start-line="10" selection-start-column="18" selection-end-line="10" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/02refactor/src/main/java/com/monkey1024/dao/StudentMapper.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="284">
@@ -874,13 +891,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/03crudone/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="300">
-          <caret line="20" column="27" selection-start-line="20" selection-start-column="27" selection-end-line="20" selection-end-column="27" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/03crudone/src/main/resources/db.properties">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -891,17 +901,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/03crudone/src/main/java/com/monkey1024/dao/impl/StudentDaoImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="217">
-          <caret line="82" column="35" selection-start-line="82" selection-start-column="19" selection-end-line="82" selection-end-column="35" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/03crudone/src/main/java/com/monkey1024/bean/Student.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="289">
-          <caret line="35" column="5" lean-forward="true" selection-start-line="35" selection-start-column="5" selection-end-line="35" selection-end-column="5" />
+          <caret line="35" column="5" selection-start-line="35" selection-start-column="5" selection-end-line="35" selection-end-column="5" />
           <folding>
             <element signature="e#1461#1462#0" expanded="true" />
             <element signature="e#1487#1488#0" expanded="true" />
@@ -913,8 +916,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/03crudone/src/main/java/com/monkey1024/test/StudentTest01.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="387">
-          <caret line="70" column="58" lean-forward="true" selection-start-line="70" selection-start-column="58" selection-end-line="70" selection-end-column="58" />
+        <state relative-caret-position="192">
+          <caret line="57" column="5" selection-start-line="57" selection-start-column="5" selection-end-line="57" selection-end-column="5" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -928,8 +931,101 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/03crudone/src/main/java/com/monkey1024/dao/StudentMapper.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="412">
-          <caret line="49" column="41" selection-start-line="49" selection-start-column="41" selection-end-line="49" selection-end-column="41" />
+        <state relative-caret-position="247">
+          <caret line="38" selection-start-line="38" selection-end-line="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/03crudone/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="360">
+          <caret line="24" column="4" selection-start-line="24" selection-start-column="4" selection-end-line="30" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/04proxy/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="429">
+          <caret line="33" column="38" selection-start-line="33" selection-start-column="38" selection-end-line="33" selection-end-column="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/04proxy/src/main/java/com/monkey1024/dao/impl/StudentDaoImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-503">
+          <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/03crudone/src/main/java/com/monkey1024/dao/impl/StudentDaoImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="681">
+          <caret line="82" column="35" selection-start-line="82" selection-start-column="19" selection-end-line="82" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/04proxy/src/main/resources/db.properties">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/04proxy/src/main/resources/log4j.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="16" selection-start-column="6" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/04proxy/src/main/java/com/monkey1024/bean/Student.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="107">
+          <caret line="10" column="14" selection-start-line="10" selection-start-column="14" selection-end-line="10" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/02refactor/src/main/java/com/monkey1024/dao/StudentDao.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="12" column="23" selection-start-line="12" selection-start-column="23" selection-end-line="12" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/04proxy/src/main/resources/mybatis.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="32" column="20" lean-forward="true" selection-start-line="32" selection-start-column="20" selection-end-line="32" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/04proxy/src/main/java/com/monkey1024/util/MyBatisUtil.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="21" column="29" selection-start-line="21" selection-start-column="29" selection-end-line="21" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/04proxy/src/main/java/com/monkey1024/dao/StudentDao.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="9" column="22" selection-start-line="9" selection-start-column="9" selection-end-line="9" selection-end-column="22" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/04proxy/src/main/java/com/monkey1024/dao/StudentMapper.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="20" column="75" selection-start-line="20" selection-start-column="75" selection-end-line="20" selection-end-column="75" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/04proxy/src/main/java/com/monkey1024/test/StudentTest01.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="111">
+          <caret line="51" column="28" selection-start-line="51" selection-start-column="28" selection-end-line="51" selection-end-column="28" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

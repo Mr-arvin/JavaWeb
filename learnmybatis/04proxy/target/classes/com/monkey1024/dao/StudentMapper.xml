@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.monkey1024.dao.StudentDao">
+    <!--parameterType可省略-->
+    <insert id="insertStudent" parameterType="Student">
+        INSERT INTO t_student_crudone(name,age,score) VALUES (#{name},#{age},#{score})
+        <!--获取自增的主键-->
+        <selectKey resultType="int" keyProperty="id" order="AFTER">
+          SELECT @@identity
+        </selectKey>
+    </insert>
+
+    <delete id="deleteStudent">
+        <!--这里的IDS只是起着占位符的作用,改成任意都行-->
+        DELETE FROM t_student_crudone WHERE id=#{IDS}
+    </delete>
+
+    <update id="updateStudent">
+        UPDATE t_student_crudone set name=#{name},age=#{age},score=#{score} WHERE id=#{id}
+    </update>
+
+    <!--resultType 的Student大小写无所谓  ,且要写成单条数据对应的类，而非arraylist-->
+    <select id="selectAllStudent" resultType="student">
+        <!--查询中尽量不要出现*，会影响sql的执行效率-->
+        SELECT id,name,age,score FROM t_student_crudone
+    </select>
+
+    <!--查询单个对象-->
+    <select id="selectStudentById" resultType="student">
+        SELECT id,name,age,score FROM t_student_crudone WHERE id=#{IDS}
+    </select>
+
+    <!--模糊查询-->
+    <select id="selectStudentByName" resultType="student">
+        SELECT id,name,age,score FROM t_student_crudone where name LIKE '%' #{name} '%'
+    </select>
+
+    <!--resultmap-->
+    <resultMap id="studentMapper" type="student">
+        <!--提供主键提高查询性能-->
+        <id column="id" property="id"/>
+        <result column="password" property="pwd"/>
+        <!--<result column="age" property="age"/>-->
+    </resultMap>
+
+    <!--查询单个对象-->
+    <select id="selectStudentPwd" resultMap="studentMapper">
+        SELECT id,name,age,score,password FROM t_student_crudone WHERE id=#{IDS}
+    </select>
+</mapper>

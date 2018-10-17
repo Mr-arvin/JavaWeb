@@ -11,6 +11,7 @@
         <module>01firstmybatis</module>
         <module>02refactor</module>
       <module>03crudone</module>
+      <module>04proxy</module>
     </modules>
     <packaging>pom</packaging>
 
