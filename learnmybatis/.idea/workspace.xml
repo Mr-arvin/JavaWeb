@@ -36,18 +36,18 @@
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="dummy" value="3" />
-          <entry key="java" value="1722" />
+          <entry key="java" value="1897" />
           <entry key="properties" value="85" />
-          <entry key="xml" value="910" />
+          <entry key="xml" value="1045" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="1722" />
+          <entry key="JAVA" value="1897" />
           <entry key="PLAIN_TEXT" value="3" />
           <entry key="Properties" value="85" />
           <entry key="SQL" value="19" />
-          <entry key="XML" value="891" />
+          <entry key="XML" value="1026" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
@@ -73,7 +73,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/02refactor/src/main/java/com/monkey1024/util/MyBatisUtil.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="528">
+            <state relative-caret-position="466">
               <caret line="37" column="72" selection-start-line="37" selection-start-column="72" selection-end-line="37" selection-end-column="72" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -85,8 +85,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/02refactor/src/main/java/com/monkey1024/dao/impl/StudentDaoImpl.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="197">
-              <caret line="62" column="22" selection-start-line="62" selection-start-column="22" selection-end-line="62" selection-end-column="22" />
+            <state relative-caret-position="167">
+              <caret line="71" column="44" selection-start-line="71" selection-start-column="25" selection-end-line="71" selection-end-column="44" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -97,7 +97,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/02refactor/src/main/resources/mybatis.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="450">
+            <state relative-caret-position="144">
               <caret line="31" column="11" selection-start-line="31" selection-start-column="11" selection-end-line="31" selection-end-column="11" />
             </state>
           </provider>
@@ -117,11 +117,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/02refactor/src/main/java/com/monkey1024/test/StudentTest01.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="328">
-              <caret line="55" column="57" selection-start-line="55" selection-start-column="57" selection-end-line="55" selection-end-column="57" />
+            <state relative-caret-position="288">
+              <caret line="60" column="14" selection-start-line="60" selection-start-column="14" selection-end-line="60" selection-end-column="14" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#277#278#0" expanded="true" />
@@ -131,11 +131,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/02refactor/src/main/java/com/monkey1024/dao/StudentMapper.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="299">
-              <caret line="30" column="33" selection-start-line="30" selection-start-column="16" selection-end-line="30" selection-end-column="33" />
+            <state relative-caret-position="284">
+              <caret line="39" column="35" selection-start-line="39" selection-start-column="35" selection-end-line="39" selection-end-column="35" />
             </state>
           </provider>
         </entry>
@@ -143,8 +143,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/02refactor/src/main/java/com/monkey1024/dao/StudentDao.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="135">
-              <caret line="11" column="29" selection-start-line="11" selection-start-column="12" selection-end-line="11" selection-end-column="29" />
+            <state relative-caret-position="120">
+              <caret line="10" column="18" selection-start-line="10" selection-start-column="18" selection-end-line="10" selection-end-column="18" />
             </state>
           </provider>
         </entry>
@@ -201,10 +201,10 @@
         <option value="$PROJECT_DIR$/02refactor/src/main/resources/mybatis.xml" />
         <option value="$PROJECT_DIR$/02refactor/src/main/java/com/monkey1024/util/MyBatisUtil.java" />
         <option value="$PROJECT_DIR$/02refactor/src/main/java/com/monkey1024/bean/Student.java" />
-        <option value="$PROJECT_DIR$/02refactor/src/main/java/com/monkey1024/dao/StudentMapper.xml" />
         <option value="$PROJECT_DIR$/02refactor/src/main/java/com/monkey1024/dao/StudentDao.java" />
         <option value="$PROJECT_DIR$/02refactor/src/main/java/com/monkey1024/dao/impl/StudentDaoImpl.java" />
         <option value="$PROJECT_DIR$/02refactor/src/main/java/com/monkey1024/test/StudentTest01.java" />
+        <option value="$PROJECT_DIR$/02refactor/src/main/java/com/monkey1024/dao/StudentMapper.xml" />
       </list>
     </option>
   </component>
@@ -515,7 +515,7 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1539739268980" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1539740213228" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="project.structure.last.edited" value="Modules" />
@@ -544,21 +544,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.StudentTest01.selectStudentById">
-    <configuration name="StudentTest01 (1)" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="_02refactor" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.monkey1024.test.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.monkey1024.test" />
-      <option name="MAIN_CLASS_NAME" value="com.monkey1024.test.StudentTest01" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="JUnit.StudentTest01.selectStudentByName">
     <configuration name="StudentTest01.insertStudent (1)" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="_02refactor" />
       <extension name="coverage">
@@ -607,6 +593,22 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="StudentTest01.selectStudentByName" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="_02refactor" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.monkey1024.test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.monkey1024.test" />
+      <option name="MAIN_CLASS_NAME" value="com.monkey1024.test.StudentTest01" />
+      <option name="METHOD_NAME" value="selectStudentByName" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="StudentTest01.updateStudent" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="_02refactor" />
       <extension name="coverage">
@@ -625,18 +627,18 @@
     </configuration>
     <list>
       <item itemvalue="JUnit.StudentTest01.insertStudent (1)" />
-      <item itemvalue="JUnit.StudentTest01 (1)" />
       <item itemvalue="JUnit.StudentTest01.updateStudent" />
       <item itemvalue="JUnit.StudentTest01.selectAllStudent" />
       <item itemvalue="JUnit.StudentTest01.selectStudentById" />
+      <item itemvalue="JUnit.StudentTest01.selectStudentByName" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.StudentTest01.selectStudentByName" />
         <item itemvalue="JUnit.StudentTest01.selectStudentById" />
         <item itemvalue="JUnit.StudentTest01.selectAllStudent" />
         <item itemvalue="JUnit.StudentTest01.updateStudent" />
         <item itemvalue="JUnit.StudentTest01.insertStudent (1)" />
-        <item itemvalue="JUnit.StudentTest01 (1)" />
       </list>
     </recent_temporary>
   </component>
@@ -652,44 +654,44 @@
       <updated>1539673268413</updated>
       <workItem from="1539673269763" duration="9171000" />
       <workItem from="1539690540680" duration="39000" />
-      <workItem from="1539690592988" duration="8980000" />
+      <workItem from="1539690592988" duration="9924000" />
     </task>
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="StudentTest01_updateStudent - 2018.10.17 at 00h 09m 06s.xml">
-      <configuration name="StudentTest01.updateStudent" configurationId="JUnit" />
+    <history-entry file="StudentTest01_selectStudentByName - 2018.10.17 at 09h 29m 08s.xml">
+      <configuration name="StudentTest01.selectStudentByName" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="StudentTest01_insertStudent_(1) - 2018.10.17 at 00h 09m 21s.xml">
-      <configuration name="StudentTest01.insertStudent (1)" configurationId="JUnit" />
+    <history-entry file="StudentTest01_selectStudentByName - 2018.10.17 at 09h 29m 39s.xml">
+      <configuration name="StudentTest01.selectStudentByName" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="StudentTest01_insertStudent_(1) - 2018.10.17 at 00h 09m 23s.xml">
-      <configuration name="StudentTest01.insertStudent (1)" configurationId="JUnit" />
+    <history-entry file="StudentTest01_selectStudentByName - 2018.10.17 at 09h 30m 08s.xml">
+      <configuration name="StudentTest01.selectStudentByName" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="StudentTest01_updateStudent - 2018.10.17 at 00h 09m 27s.xml">
-      <configuration name="StudentTest01.updateStudent" configurationId="JUnit" />
+    <history-entry file="StudentTest01_selectStudentByName - 2018.10.17 at 09h 32m 03s.xml">
+      <configuration name="StudentTest01.selectStudentByName" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="StudentTest01_updateStudent - 2018.10.17 at 00h 09m 54s.xml">
-      <configuration name="StudentTest01.updateStudent" configurationId="JUnit" />
+    <history-entry file="StudentTest01_selectStudentByName - 2018.10.17 at 09h 32m 27s.xml">
+      <configuration name="StudentTest01.selectStudentByName" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="StudentTest01_selectAllStudent - 2018.10.17 at 00h 10m 07s.xml">
-      <configuration name="StudentTest01.selectAllStudent" configurationId="JUnit" />
+    <history-entry file="StudentTest01_selectStudentByName - 2018.10.17 at 09h 32m 38s.xml">
+      <configuration name="StudentTest01.selectStudentByName" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="StudentTest01_selectAllStudent - 2018.10.17 at 00h 12m 11s.xml">
-      <configuration name="StudentTest01.selectAllStudent" configurationId="JUnit" />
+    <history-entry file="StudentTest01_selectStudentByName - 2018.10.17 at 09h 33m 15s.xml">
+      <configuration name="StudentTest01.selectStudentByName" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="StudentTest01_selectAllStudent - 2018.10.17 at 00h 13m 24s.xml">
-      <configuration name="StudentTest01.selectAllStudent" configurationId="JUnit" />
+    <history-entry file="StudentTest01_selectStudentByName - 2018.10.17 at 09h 34m 22s.xml">
+      <configuration name="StudentTest01.selectStudentByName" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="StudentTest01_selectAllStudent - 2018.10.17 at 00h 13m 46s.xml">
-      <configuration name="StudentTest01.selectAllStudent" configurationId="JUnit" />
+    <history-entry file="StudentTest01_selectStudentByName - 2018.10.17 at 09h 34m 38s.xml">
+      <configuration name="StudentTest01.selectStudentByName" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="StudentTest01_selectStudentById - 2018.10.17 at 09h 20m 59s.xml">
-      <configuration name="StudentTest01.selectStudentById" configurationId="JUnit" />
+    <history-entry file="StudentTest01_selectStudentByName - 2018.10.17 at 09h 35m 18s.xml">
+      <configuration name="StudentTest01.selectStudentByName" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="18290000" />
+    <option name="totallyTimeSpent" value="19234000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="15" y="101" width="932" height="812" extended-state="0" />
@@ -840,25 +842,8 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/02refactor/src/main/resources/mybatis.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="450">
-          <caret line="31" column="11" selection-start-line="31" selection-start-column="11" selection-end-line="31" selection-end-column="11" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/02refactor/src/main/webapp/index.jsp">
       <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/02refactor/src/main/java/com/monkey1024/util/MyBatisUtil.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="528">
-          <caret line="37" column="72" selection-start-line="37" selection-start-column="72" selection-end-line="37" selection-end-column="72" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/02refactor/src/main/java/com/monkey1024/bean/Student.java">
       <provider selected="true" editor-type-id="text-editor">
@@ -871,39 +856,56 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/02refactor/src/main/java/com/monkey1024/dao/StudentDao.java">
+    <entry file="file://$PROJECT_DIR$/02refactor/src/main/resources/mybatis.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="11" column="29" selection-start-line="11" selection-start-column="12" selection-end-line="11" selection-end-column="29" />
+        <state relative-caret-position="144">
+          <caret line="31" column="11" selection-start-line="31" selection-start-column="11" selection-end-line="31" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/02refactor/src/main/java/com/monkey1024/util/MyBatisUtil.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="466">
+          <caret line="37" column="72" selection-start-line="37" selection-start-column="72" selection-end-line="37" selection-end-column="72" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/02refactor/src/main/java/com/monkey1024/dao/impl/StudentDaoImpl.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="197">
-          <caret line="62" column="22" selection-start-line="62" selection-start-column="22" selection-end-line="62" selection-end-column="22" />
+        <state relative-caret-position="167">
+          <caret line="71" column="44" selection-start-line="71" selection-start-column="25" selection-end-line="71" selection-end-column="44" />
           <folding>
             <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/02refactor/src/main/java/com/monkey1024/dao/StudentDao.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="10" column="18" selection-start-line="10" selection-start-column="18" selection-end-line="10" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/02refactor/src/main/java/com/monkey1024/test/StudentTest01.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="288">
+          <caret line="60" column="14" selection-start-line="60" selection-start-column="14" selection-end-line="60" selection-end-column="14" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#277#278#0" expanded="true" />
+            <element signature="e#310#311#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/02refactor/src/main/java/com/monkey1024/dao/StudentMapper.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="299">
-          <caret line="30" column="33" selection-start-line="30" selection-start-column="16" selection-end-line="30" selection-end-column="33" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/02refactor/src/main/java/com/monkey1024/test/StudentTest01.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="328">
-          <caret line="55" column="57" selection-start-line="55" selection-start-column="57" selection-end-line="55" selection-end-column="57" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#277#278#0" expanded="true" />
-            <element signature="e#310#311#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="284">
+          <caret line="39" column="35" selection-start-line="39" selection-start-column="35" selection-end-line="39" selection-end-column="35" />
         </state>
       </provider>
     </entry>

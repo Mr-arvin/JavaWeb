@@ -67,4 +67,15 @@ public class StudentDaoImpl implements StudentDao {
         return student;
 
     }
+
+    @Override
+    public List<Student> selectStudentByName(String name) {
+        List<Student> result = null;
+        try (SqlSession sqlSession = MyBatisUtil.getSqlSession()) {
+            //查询
+            result = sqlSession.selectList("selectStudentByName", name);
+        }
+
+        return result;
+    }
 }

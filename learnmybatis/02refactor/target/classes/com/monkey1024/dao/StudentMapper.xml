@@ -31,4 +31,14 @@
     <select id="selectStudentById" resultType="student">
         SELECT id,name,age,score FROM t_student WHERE id=#{IDS}
     </select>
+
+    <!--模糊查询-->
+    <select id="selectStudentByName" resultType="student">
+        SELECT id,name,age,score FROM t_student where name LIKE '%' #{name} '%'
+    </select>
+
+    <!--模糊查询这样也可以-->
+    <!--<select id="selectStudentByName" resultType="student">-->
+        <!--SELECT id,name,age,score FROM t_student where name LIKE '%${value}%'-->
+    <!--</select>-->
 </mapper>

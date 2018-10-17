@@ -56,4 +56,13 @@ public class StudentTest01 {
         Student student = studentDao.selectStudentById(20);
         System.out.println(student);
     }
+
+    @Test
+    public void selectStudentByName() {
+        List<Student> students = studentDao.selectStudentByName("淼");
+        students.forEach((s -> {
+            System.out.println(s);
+        }));
+
+    }
 }
