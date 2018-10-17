@@ -10,6 +10,7 @@
     <modules>
         <module>01firstmybatis</module>
         <module>02refactor</module>
+      <module>03crudone</module>
     </modules>
     <packaging>pom</packaging>
 

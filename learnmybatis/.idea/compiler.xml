@@ -8,6 +8,7 @@
         <outputRelativeToContentRoot value="true" />
         <module name="_01firstmybatis" />
         <module name="_02refactor" />
+        <module name="_03crudone" />
       </profile>
     </annotationProcessing>
   </component>

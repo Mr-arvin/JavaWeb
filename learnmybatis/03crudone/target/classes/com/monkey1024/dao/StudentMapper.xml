@@ -5,7 +5,7 @@
 <mapper namespace="monkey1024">
     <!--parameterType可省略-->
     <insert id="insertStudent" parameterType="Student">
-        INSERT INTO t_student(name,age,score) VALUES (#{name},#{age},#{score})
+        INSERT INTO t_student_crudone(name,age,score) VALUES (#{name},#{age},#{score})
         <!--获取自增的主键-->
         <selectKey resultType="int" keyProperty="id" order="AFTER">
           SELECT @@identity
@@ -14,31 +14,31 @@
 
     <delete id="deleteStudent">
         <!--这里的IDS只是起着占位符的作用,改成任意都行-->
-        DELETE FROM t_student WHERE id=#{IDS}
+        DELETE FROM t_student_crudone WHERE id=#{IDS}
     </delete>
 
     <update id="updateStudent">
-        UPDATE t_student set name=#{name},age=#{age},score=#{score} WHERE id=#{id}
+        UPDATE t_student_crudone set name=#{name},age=#{age},score=#{score} WHERE id=#{id}
     </update>
 
     <!--resultType 的Student大小写无所谓  ,且要写成单条数据对应的类，而非arraylist-->
     <select id="selectAllStudent" resultType="student">
         <!--查询中尽量不要出现*，会影响sql的执行效率-->
-        SELECT id,name,age,score FROM t_student
+        SELECT id,name,age,score FROM t_student_crudone
     </select>
 
     <!--查询单个对象-->
     <select id="selectStudentById" resultType="student">
-        SELECT id,name,age,score FROM t_student WHERE id=#{IDS}
+        SELECT id,name,age,score FROM t_student_crudone WHERE id=#{IDS}
     </select>
 
     <!--模糊查询-->
     <select id="selectStudentByName" resultType="student">
-        SELECT id,name,age,score FROM t_student where name LIKE '%' #{name} '%'
+        SELECT id,name,age,score FROM t_student_crudone where name LIKE '%' #{name} '%'
     </select>
 
-    <!--模糊查询这样也可以，但会出现sql注入问题，不提倡使用-->
-    <!--<select id="selectStudentByName" resultType="student">-->
-        <!--SELECT id,name,age,score FROM t_student where name LIKE '%${value}%'-->
-    <!--</select>-->
+    <!--查询单个对象-->
+    <select id="selectStudentPwd" resultType="student">
+        SELECT id,name,age,score,password pwd FROM t_student_crudone WHERE id=#{IDS}
+    </select>
 </mapper>
