@@ -37,8 +37,16 @@
         SELECT id,name,age,score FROM t_student_crudone where name LIKE '%' #{name} '%'
     </select>
 
+    <!--resultmap-->
+    <resultMap id="studentMapper" type="student">
+        <!--提供主键提高查询性能-->
+        <id column="id" property="id"/>
+        <result column="password" property="pwd"/>
+        <!--<result column="age" property="age"/>-->
+    </resultMap>
+
     <!--查询单个对象-->
-    <select id="selectStudentPwd" resultType="student">
-        SELECT id,name,age,score,password pwd FROM t_student_crudone WHERE id=#{IDS}
+    <select id="selectStudentPwd" resultMap="studentMapper">
+        SELECT id,name,age,score,password FROM t_student_crudone WHERE id=#{IDS}
     </select>
 </mapper>
