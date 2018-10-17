@@ -26,4 +26,9 @@
         <!--查询中尽量不要出现*，会影响sql的执行效率-->
         SELECT id,name,age,score FROM t_student
     </select>
+
+    <!--查询单个对象-->
+    <select id="selectStudentById" resultType="student">
+        SELECT id,name,age,score FROM t_student WHERE id=#{IDS}
+    </select>
 </mapper>

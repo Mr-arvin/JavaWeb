@@ -55,4 +55,16 @@ public class StudentDaoImpl implements StudentDao {
         return result;
 
     }
+
+    @Override
+    public Student selectStudentById(int id) {
+        Student student = null;
+        try (SqlSession sqlSession = MyBatisUtil.getSqlSession()) {
+            //根据id查询数据
+            student = sqlSession.selectOne("selectStudentById", id);
+        }
+
+        return student;
+
+    }
 }

@@ -50,4 +50,10 @@ public class StudentTest01 {
         }));
 
     }
+
+    @Test
+    public void selectStudentById() {
+        Student student = studentDao.selectStudentById(20);
+        System.out.println(student);
+    }
 }
