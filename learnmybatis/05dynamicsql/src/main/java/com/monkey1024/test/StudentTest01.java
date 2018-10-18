@@ -9,6 +9,7 @@ import org.junit.Before;
 import org.junit.Test;
 
 import javax.swing.text.Style;
+import java.util.ArrayList;
 import java.util.List;
 
 public class StudentTest01 {
@@ -35,6 +36,7 @@ public class StudentTest01 {
         }
     }
 
+    //选择年龄大于不52的
     @Test
     public void selectIf() throws Exception {
         Student student = new Student("淼", 60, 0.0);
@@ -45,6 +47,7 @@ public class StudentTest01 {
 
     }
 
+    //选择年龄大于不52的
     @Test
     public void selectWhere() throws Exception {
         Student student = new Student("淼", 60, 0.0);
@@ -55,12 +58,57 @@ public class StudentTest01 {
 
     }
 
+    //选择年龄大于不52的
     @Test
     public void selectChoose() throws Exception {
-        Student student = new Student("淼", 0, 0.0);
+        Student student = new Student("淼", 52, 0.0);
         List<Student> students = studentDao.selectWhere(student);
         students.forEach(s ->{
             System.out.println(s);
         });
+    }
+
+    //传入数组 筛选多个id
+    @Test
+    public void selectForeachArray() throws Exception {
+        int[] ids = {23,24};
+        List<Student> students = studentDao.selectForeachArray(ids);
+        students.forEach(s ->{
+            System.out.println(s);
+        });
+    }
+
+    //传入集合 -list里面存放的基本数据类型
+    @Test
+    public void selectForeachList() throws Exception {
+        List<Integer> list = new ArrayList<>();
+        list.add(23);
+        list.add(24);
+        List<Student> students = studentDao.selectForeachList(list);
+        students.forEach(s ->{
+            System.out.println(s);
+        });
+
+    }
+
+    //传入集合 -list里面存放的引用数据类型
+    @Test
+    public void selectForeachListStudent() throws Exception {
+        List<Student> stuList = new ArrayList<>();
+
+        Student s1 = new Student();
+        Student s2 = new Student();
+
+        s1.setId(23);
+        s2.setId(24);
+
+        stuList.add(s1);
+        stuList.add(s2);
+
+        List<Student> students = studentDao.selectForeachListStudent(stuList);
+        students.forEach(s ->{
+            System.out.println(s);
+        });
+
     }
 }

@@ -2,22 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c7bc4afe-7105-40f5-bbaa-a831a669d9ab" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/05dynamicsql/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/05dynamicsql/src/main/java/com/monkey1024/bean/Student.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/05dynamicsql/src/main/java/com/monkey1024/dao/StudentDao.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/05dynamicsql/src/main/java/com/monkey1024/dao/StudentMapper.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/05dynamicsql/src/main/java/com/monkey1024/test/StudentTest01.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/05dynamicsql/src/main/java/com/monkey1024/util/MyBatisUtil.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/05dynamicsql/src/main/resources/db.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/05dynamicsql/src/main/resources/log4j.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/05dynamicsql/src/main/resources/mybatis.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/02refactor/src/main/java/com/monkey1024/test/StudentTest01.java" beforeDir="false" afterPath="$PROJECT_DIR$/02refactor/src/main/java/com/monkey1024/test/StudentTest01.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/03crudone/src/main/java/com/monkey1024/test/StudentTest01.java" beforeDir="false" afterPath="$PROJECT_DIR$/03crudone/src/main/java/com/monkey1024/test/StudentTest01.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/04proxy/src/main/java/com/monkey1024/test/StudentTest01.java" beforeDir="false" afterPath="$PROJECT_DIR$/04proxy/src/main/java/com/monkey1024/test/StudentTest01.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/05dynamicsql/src/main/java/com/monkey1024/dao/StudentDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/05dynamicsql/src/main/java/com/monkey1024/dao/StudentDao.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/05dynamicsql/src/main/java/com/monkey1024/dao/StudentMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/05dynamicsql/src/main/java/com/monkey1024/dao/StudentMapper.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/05dynamicsql/src/main/java/com/monkey1024/test/StudentTest01.java" beforeDir="false" afterPath="$PROJECT_DIR$/05dynamicsql/src/main/java/com/monkey1024/test/StudentTest01.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/05dynamicsql/target/classes/com/monkey1024/dao/StudentDao.class" beforeDir="false" afterPath="$PROJECT_DIR$/05dynamicsql/target/classes/com/monkey1024/dao/StudentDao.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/05dynamicsql/target/classes/com/monkey1024/dao/StudentMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/05dynamicsql/target/classes/com/monkey1024/dao/StudentMapper.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/05dynamicsql/target/classes/com/monkey1024/test/StudentTest01.class" beforeDir="false" afterPath="$PROJECT_DIR$/05dynamicsql/target/classes/com/monkey1024/test/StudentTest01.class" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/target/" />
     <ignored path="$PROJECT_DIR$/01firstmybatis/target/" />
@@ -51,23 +42,23 @@
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="dummy" value="3" />
-          <entry key="java" value="2590" />
+          <entry key="java" value="3090" />
           <entry key="properties" value="128" />
-          <entry key="xml" value="1490" />
+          <entry key="xml" value="1843" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="2590" />
+          <entry key="JAVA" value="3090" />
           <entry key="PLAIN_TEXT" value="3" />
           <entry key="Properties" value="128" />
-          <entry key="SQL" value="30" />
-          <entry key="XML" value="1460" />
+          <entry key="SQL" value="39" />
+          <entry key="XML" value="1804" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="java" value="52" />
+          <entry key="java" value="53" />
           <entry key="jsp" value="2" />
           <entry key="properties" value="9" />
           <entry key="xml" value="25" />
@@ -75,7 +66,7 @@
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="JAVA" value="52" />
+          <entry key="JAVA" value="53" />
           <entry key="JSP" value="2" />
           <entry key="Properties" value="9" />
           <entry key="XML" value="25" />
@@ -88,8 +79,17 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/05dynamicsql/src/main/java/com/monkey1024/test/StudentTest01.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="351">
-              <caret line="59" column="43" lean-forward="true" selection-start-line="59" selection-start-column="43" selection-end-line="59" selection-end-column="43" />
+            <state relative-caret-position="330">
+              <caret line="105" column="24" selection-start-line="105" selection-start-column="24" selection-end-line="105" selection-end-column="24" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/05dynamicsql/src/main/java/com/monkey1024/bean/Student.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="165">
+              <caret line="11" selection-start-line="11" selection-end-line="11" />
             </state>
           </provider>
         </entry>
@@ -97,8 +97,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/05dynamicsql/src/main/java/com/monkey1024/dao/StudentMapper.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="389">
-              <caret line="40" column="23" lean-forward="true" selection-start-line="40" selection-start-column="23" selection-end-line="40" selection-end-column="23" />
+            <state relative-caret-position="410">
+              <caret line="79" column="24" selection-start-line="79" selection-start-column="24" selection-end-line="79" selection-end-column="24" />
             </state>
           </provider>
         </entry>
@@ -106,8 +106,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/05dynamicsql/src/main/java/com/monkey1024/dao/StudentDao.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="105">
-              <caret line="9" column="30" selection-start-line="9" selection-start-column="18" selection-end-line="9" selection-end-column="30" />
+            <state relative-caret-position="150">
+              <caret line="12" column="42" selection-start-line="12" selection-start-column="18" selection-end-line="12" selection-end-column="42" />
             </state>
           </provider>
         </entry>
@@ -172,8 +172,9 @@
         <option value="$PROJECT_DIR$/04proxy/src/main/java/com/monkey1024/test/StudentTest01.java" />
         <option value="$PROJECT_DIR$/03crudone/src/main/java/com/monkey1024/test/StudentTest01.java" />
         <option value="$PROJECT_DIR$/02refactor/src/main/java/com/monkey1024/test/StudentTest01.java" />
-        <option value="$PROJECT_DIR$/05dynamicsql/src/main/java/com/monkey1024/dao/StudentDao.java" />
         <option value="$PROJECT_DIR$/05dynamicsql/src/main/java/com/monkey1024/dao/StudentMapper.xml" />
+        <option value="$PROJECT_DIR$/05dynamicsql/src/main/java/com/monkey1024/dao/StudentDao.java" />
+        <option value="$PROJECT_DIR$/05dynamicsql/src/main/java/com/monkey1024/bean/Student.java" />
         <option value="$PROJECT_DIR$/05dynamicsql/src/main/java/com/monkey1024/test/StudentTest01.java" />
       </list>
     </option>
@@ -257,6 +258,16 @@
               <item name="java" type="9f88c78c:ScopeViewTreeModel$FileNode" />
               <item name="com" type="9f88c78c:ScopeViewTreeModel$FileNode" />
               <item name="monkey1024" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+            </path>
+            <path>
+              <item name="learnmybatis" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="_05dynamicsql" type="2674bda8:ScopeViewTreeModel$GroupNode" />
+              <item name="src" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="main" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="java" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="com" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="monkey1024" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="bean" type="9f88c78c:ScopeViewTreeModel$FileNode" />
             </path>
             <path>
               <item name="learnmybatis" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
@@ -415,7 +426,7 @@
     <property name="SearchEverywhereHistoryKey" value="&#9;FILE&#9;file:///Users/xm/JavaStudy/gitSource/learnmybatis/05dynamicsql/src/main/java/com/monkey1024/dao/StudentMapper.xml" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1539792633827" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1539846100927" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="project.structure.last.edited" value="Modules" />
@@ -447,23 +458,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.StudentTest01.selectChoose">
-    <configuration name="StudentTest01.selectAllStudent (1)" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="_02refactor" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.monkey1024.test.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.monkey1024.test" />
-      <option name="MAIN_CLASS_NAME" value="com.monkey1024.test.StudentTest01" />
-      <option name="METHOD_NAME" value="selectAllStudent" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="JUnit.StudentTest01.selectForeachListStudent">
     <configuration name="StudentTest01.selectChoose" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="_05dynamicsql" />
       <extension name="coverage">
@@ -480,6 +475,38 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="StudentTest01.selectForeachList" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="_05dynamicsql" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.monkey1024.test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.monkey1024.test" />
+      <option name="MAIN_CLASS_NAME" value="com.monkey1024.test.StudentTest01" />
+      <option name="METHOD_NAME" value="selectForeachList" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="StudentTest01.selectForeachListStudent" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="_05dynamicsql" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.monkey1024.test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.monkey1024.test" />
+      <option name="MAIN_CLASS_NAME" value="com.monkey1024.test.StudentTest01" />
+      <option name="METHOD_NAME" value="selectForeachListStudent" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="StudentTest01.selectIf" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="_05dynamicsql" />
       <extension name="coverage">
@@ -491,22 +518,6 @@
       <option name="PACKAGE_NAME" value="com.monkey1024.test" />
       <option name="MAIN_CLASS_NAME" value="com.monkey1024.test.StudentTest01" />
       <option name="METHOD_NAME" value="selectIf" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="StudentTest01.selectStudentByName" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="_04proxy" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.monkey1024.test.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.monkey1024.test" />
-      <option name="MAIN_CLASS_NAME" value="com.monkey1024.test.StudentTest01" />
-      <option name="METHOD_NAME" value="selectStudentByName" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -529,19 +540,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="JUnit.StudentTest01.selectStudentByName" />
-      <item itemvalue="JUnit.StudentTest01.selectAllStudent (1)" />
       <item itemvalue="JUnit.StudentTest01.selectIf" />
       <item itemvalue="JUnit.StudentTest01.selectWhere" />
       <item itemvalue="JUnit.StudentTest01.selectChoose" />
+      <item itemvalue="JUnit.StudentTest01.selectForeachList" />
+      <item itemvalue="JUnit.StudentTest01.selectForeachListStudent" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.StudentTest01.selectChoose" />
-        <item itemvalue="JUnit.StudentTest01.selectWhere" />
+        <item itemvalue="JUnit.StudentTest01.selectForeachListStudent" />
+        <item itemvalue="JUnit.StudentTest01.selectForeachList" />
         <item itemvalue="JUnit.StudentTest01.selectIf" />
-        <item itemvalue="JUnit.StudentTest01.selectAllStudent (1)" />
-        <item itemvalue="JUnit.StudentTest01.selectStudentByName" />
+        <item itemvalue="JUnit.StudentTest01.selectWhere" />
+        <item itemvalue="JUnit.StudentTest01.selectChoose" />
       </list>
     </recent_temporary>
   </component>
@@ -557,50 +568,50 @@
       <updated>1539673268413</updated>
       <workItem from="1539673269763" duration="9171000" />
       <workItem from="1539690540680" duration="39000" />
-      <workItem from="1539690592988" duration="23419000" />
+      <workItem from="1539690592988" duration="26800000" />
     </task>
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="StudentTest01_selectWhere - 2018.10.18 at 00h 02m 27s.xml">
-      <configuration name="StudentTest01.selectWhere" configurationId="JUnit" />
+    <history-entry file="StudentTest01_selectForeachArray - 2018.10.18 at 14h 41m 25s.xml">
+      <configuration name="StudentTest01.selectForeachArray" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="StudentTest01_selectWhere - 2018.10.18 at 00h 02m 49s.xml">
-      <configuration name="StudentTest01.selectWhere" configurationId="JUnit" />
+    <history-entry file="StudentTest01_selectForeachArray - 2018.10.18 at 14h 42m 31s.xml">
+      <configuration name="StudentTest01.selectForeachArray" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="StudentTest01_selectWhere - 2018.10.18 at 00h 03m 03s.xml">
-      <configuration name="StudentTest01.selectWhere" configurationId="JUnit" />
+    <history-entry file="StudentTest01_selectForeachArray - 2018.10.18 at 14h 43m 10s.xml">
+      <configuration name="StudentTest01.selectForeachArray" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="StudentTest01_selectWhere - 2018.10.18 at 00h 03m 16s.xml">
-      <configuration name="StudentTest01.selectWhere" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="StudentTest01_selectWhere - 2018.10.18 at 00h 04m 05s.xml">
-      <configuration name="StudentTest01.selectWhere" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="StudentTest01_selectChoose - 2018.10.18 at 00h 08m 32s.xml">
+    <history-entry file="StudentTest01_selectChoose - 2018.10.18 at 14h 44m 17s.xml">
       <configuration name="StudentTest01.selectChoose" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="StudentTest01_selectChoose - 2018.10.18 at 00h 08m 42s.xml">
+    <history-entry file="StudentTest01_selectChoose - 2018.10.18 at 14h 44m 33s.xml">
       <configuration name="StudentTest01.selectChoose" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="StudentTest01_selectChoose - 2018.10.18 at 00h 09m 10s.xml">
-      <configuration name="StudentTest01.selectChoose" configurationId="JUnit" />
+    <history-entry file="StudentTest01_selectWhere - 2018.10.18 at 14h 44m 58s.xml">
+      <configuration name="StudentTest01.selectWhere" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="StudentTest01_selectChoose - 2018.10.18 at 00h 09m 27s.xml">
-      <configuration name="StudentTest01.selectChoose" configurationId="JUnit" />
+    <history-entry file="StudentTest01_selectWhere - 2018.10.18 at 14h 45m 08s.xml">
+      <configuration name="StudentTest01.selectWhere" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="StudentTest01_selectChoose - 2018.10.18 at 00h 09m 41s.xml">
-      <configuration name="StudentTest01.selectChoose" configurationId="JUnit" />
+    <history-entry file="StudentTest01_selectIf - 2018.10.18 at 14h 45m 17s.xml">
+      <configuration name="StudentTest01.selectIf" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="StudentTest01_selectForeachList - 2018.10.18 at 14h 52m 20s.xml">
+      <configuration name="StudentTest01.selectForeachList" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="StudentTest01_selectForeachList - 2018.10.18 at 14h 52m 36s.xml">
+      <configuration name="StudentTest01.selectForeachList" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="32729000" />
+    <option name="totallyTimeSpent" value="36110000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="15" y="23" width="872" height="990" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.36506024" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.36506024" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="UI Designer" order="3" />
@@ -610,7 +621,7 @@
       <window_info id="Image Layers" order="7" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.38084632" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.38084632" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.3997773" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -901,9 +912,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/05dynamicsql/src/main/java/com/monkey1024/bean/Student.java">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/05dynamicsql/src/main/java/com/monkey1024/util/MyBatisUtil.java">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -962,24 +970,31 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/05dynamicsql/src/main/java/com/monkey1024/dao/StudentDao.java">
+    <entry file="file://$PROJECT_DIR$/05dynamicsql/src/main/java/com/monkey1024/dao/StudentMapper.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="9" column="30" selection-start-line="9" selection-start-column="18" selection-end-line="9" selection-end-column="30" />
+        <state relative-caret-position="410">
+          <caret line="79" column="24" selection-start-line="79" selection-start-column="24" selection-end-line="79" selection-end-column="24" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/05dynamicsql/src/main/java/com/monkey1024/dao/StudentMapper.xml">
+    <entry file="file://$PROJECT_DIR$/05dynamicsql/src/main/java/com/monkey1024/dao/StudentDao.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="389">
-          <caret line="40" column="23" lean-forward="true" selection-start-line="40" selection-start-column="23" selection-end-line="40" selection-end-column="23" />
+        <state relative-caret-position="150">
+          <caret line="12" column="42" selection-start-line="12" selection-start-column="18" selection-end-line="12" selection-end-column="42" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/05dynamicsql/src/main/java/com/monkey1024/bean/Student.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="11" selection-start-line="11" selection-end-line="11" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/05dynamicsql/src/main/java/com/monkey1024/test/StudentTest01.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="351">
-          <caret line="59" column="43" lean-forward="true" selection-start-line="59" selection-start-column="43" selection-end-line="59" selection-end-column="43" />
+        <state relative-caret-position="330">
+          <caret line="105" column="24" selection-start-line="105" selection-start-column="24" selection-end-line="105" selection-end-column="24" />
         </state>
       </provider>
     </entry>

@@ -48,5 +48,38 @@
             </choose>
         </where>
     </select>
+    
+    <select id="selectForeachArray" resultType="student">
+      SELECT id,name,age,score
+      FROM t_student_crudone
+      <if test="array != null and array.length>0">
+          where id in
+          <foreach collection="array" open="(" close=")" item="ids" separator=",">
+              #{ids}
+          </foreach>
+      </if>
+    </select>
+
+    <select id="selectForeachList" resultType="student">
+        SELECT id,name,age,score
+        FROM t_student_crudone
+        <if test="list !=null and list.size>0">
+            where id in
+            <foreach collection="list" open="(" close=")" item="ids" separator=",">
+                #{ids}
+            </foreach>
+        </if>
+    </select>
+
+    <select id="selectForeachListStudent" resultType="student">
+        SELECT id,name,age,score
+        FROM t_student_crudone
+        <if test="list !=null and list.size>0">
+            where id in
+            <foreach collection="list" open="(" close=")" item="stu" separator=",">
+                #{stu.id}
+            </foreach>
+        </if>
+    </select>
 
 </mapper>
