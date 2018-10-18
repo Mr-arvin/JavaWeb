@@ -2,7 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c7bc4afe-7105-40f5-bbaa-a831a669d9ab" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/05dynamicsql/src/main/java/com/monkey1024/dao/StudentMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/05dynamicsql/src/main/java/com/monkey1024/dao/StudentMapper.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/target/" />
@@ -39,7 +38,7 @@
           <entry key="dummy" value="3" />
           <entry key="java" value="3090" />
           <entry key="properties" value="128" />
-          <entry key="xml" value="1951" />
+          <entry key="xml" value="1993" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
@@ -48,7 +47,7 @@
           <entry key="PLAIN_TEXT" value="3" />
           <entry key="Properties" value="128" />
           <entry key="SQL" value="44" />
-          <entry key="XML" value="1907" />
+          <entry key="XML" value="1949" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
@@ -92,8 +91,11 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/05dynamicsql/src/main/java/com/monkey1024/dao/StudentMapper.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="75">
-              <caret line="62" column="55" selection-start-line="62" selection-start-column="55" selection-end-line="62" selection-end-column="55" />
+            <state relative-caret-position="432">
+              <caret line="106" column="9" lean-forward="true" selection-start-line="106" selection-start-column="9" selection-end-line="106" selection-end-column="9" />
+              <folding>
+                <element signature="e#2932#2936#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -421,7 +423,7 @@
     <property name="SearchEverywhereHistoryKey" value="&#9;FILE&#9;file:///Users/xm/JavaStudy/gitSource/learnmybatis/05dynamicsql/src/main/java/com/monkey1024/dao/StudentMapper.xml" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1539846422805" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1539847386312" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="project.structure.last.edited" value="Modules" />
@@ -563,7 +565,7 @@
       <updated>1539673268413</updated>
       <workItem from="1539673269763" duration="9171000" />
       <workItem from="1539690540680" duration="39000" />
-      <workItem from="1539690592988" duration="27255000" />
+      <workItem from="1539690592988" duration="28205000" />
     </task>
     <servers />
   </component>
@@ -600,7 +602,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="36565000" />
+    <option name="totallyTimeSpent" value="37515000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="15" y="23" width="872" height="990" extended-state="0" />
@@ -988,8 +990,11 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/05dynamicsql/src/main/java/com/monkey1024/dao/StudentMapper.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="62" column="55" selection-start-line="62" selection-start-column="55" selection-end-line="62" selection-end-column="55" />
+        <state relative-caret-position="432">
+          <caret line="106" column="9" lean-forward="true" selection-start-line="106" selection-start-column="9" selection-end-line="106" selection-end-column="9" />
+          <folding>
+            <element signature="e#2932#2936#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

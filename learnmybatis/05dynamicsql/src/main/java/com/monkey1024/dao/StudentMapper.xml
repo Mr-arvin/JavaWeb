@@ -88,4 +88,20 @@
         </if>
     </select>
 
+    <!--动态SQL的注意事项-->
+    <select id="sqlWarn" resultType="student">
+        SELECT id,name,age,score
+        FROM t_student_crudone
+
+        <where>
+            <if test="name != null and name !=''">
+                AND name like '%' #{name} '%'
+            </if>
+            <if test="age>0">
+                AND age &lt; #{age}
+                AND age <![CDATA[ < ]]> #{age}
+            </if>
+        </where>
+    </select>
+
 </mapper>
