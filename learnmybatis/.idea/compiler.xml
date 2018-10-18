@@ -11,6 +11,7 @@
         <module name="_03crudone" />
         <module name="_04proxy" />
         <module name="_05dynamicsql" />
+        <module name="_06onetomany" />
       </profile>
     </annotationProcessing>
   </component>

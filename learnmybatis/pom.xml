@@ -13,6 +13,7 @@
       <module>03crudone</module>
       <module>04proxy</module>
       <module>05dynamicsql</module>
+      <module>06onetomany</module>
     </modules>
     <packaging>pom</packaging>
 

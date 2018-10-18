@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE configuration
+        PUBLIC "-//mybatis.org//DTD Config 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-config.dtd">
+<configuration>
+
+    <!--注册db配置文件-->
+    <properties resource="db.properties" />
+
+    <!--注册实体类（JavaBean）的全限定性类名的别名(mybatie配置文件中的标签是有顺序的)-->
+    <typeAliases>
+        <!--方式一：这种方式配置不太方便-->
+        <!--<typeAlias type="com.monkey1024.bean.Student" alias="student"/>-->
+        <!--方式二：mybatis就在这个包下搜索需要的javabean，新的名称默认自动名称为类名首字母小写-->
+        <package name="com.monkey1024.bean"/>
+    </typeAliases>
+
+    <environments default="development">
+        <environment id="development">
+            <!--指定mybatis使用的事务管理器-->
+            <transactionManager type="JDBC"/>
+            <dataSource type="POOLED">
+                <property name="driver" value="${jdbc.driver}"/>
+                <property name="url" value="${jdbc.url}"/>
+                <property name="username" value="${jdbc.user}"/>
+                <property name="password" value="${jdbc.password}"/>
+            </dataSource>
+        </environment>
+        <!--有可能有多个数据库-->
+        <environment id="test">
+            <transactionManager type="JDBC"/>
+            <dataSource type="POOLED">
+                <property name="driver" value="${jdbc.driver}"/>
+                <property name="url" value="${jdbc.url}"/>
+                <property name="username" value="${jdbc.user}"/>
+                <property name="password" value="${jdbc.password}"/>
+            </dataSource>
+        </environment>
+    </environments>
+    <mappers>
+        <!--注册映射文件-->
+        <mapper resource="com/monkey1024/dao/TeamMapper.xml"/>
+    </mappers>
+</configuration>

@@ -2,7 +2,7 @@
 <!DOCTYPE mapper
         PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
         "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
-<mapper namespace="com.monkey1024.dao.StudentDao">
+<mapper namespace="com.monkey1024.dao.TeamDao">
     <!--parameterType可省略-->
     <insert id="insertStudent" parameterType="Student">
         INSERT INTO t_student_crudone(name,age,score) VALUES (#{name},#{age},#{score})
