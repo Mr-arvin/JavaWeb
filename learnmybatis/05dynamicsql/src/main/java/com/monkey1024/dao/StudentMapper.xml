@@ -60,9 +60,15 @@
       </if>
     </select>
 
-    <select id="selectForeachList" resultType="student">
+    <!--sql标签： 定义一个sql片段  可以复用，但实际开发中建议不要这么写，因为会经常有需求变动-->
+    <sql id="selectStu">
         SELECT id,name,age,score
         FROM t_student_crudone
+    </sql>
+
+    <select id="selectForeachList" resultType="student">
+        <!--使用sql片段-->
+        <include refid="selectStu"/>
         <if test="list !=null and list.size>0">
             where id in
             <foreach collection="list" open="(" close=")" item="ids" separator=",">
@@ -72,8 +78,8 @@
     </select>
 
     <select id="selectForeachListStudent" resultType="student">
-        SELECT id,name,age,score
-        FROM t_student_crudone
+        <!--使用sql片段-->
+        <include refid="selectStu"/>
         <if test="list !=null and list.size>0">
             where id in
             <foreach collection="list" open="(" close=")" item="stu" separator=",">

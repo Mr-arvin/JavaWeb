@@ -3,12 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="c7bc4afe-7105-40f5-bbaa-a831a669d9ab" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/05dynamicsql/src/main/java/com/monkey1024/dao/StudentDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/05dynamicsql/src/main/java/com/monkey1024/dao/StudentDao.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/05dynamicsql/src/main/java/com/monkey1024/dao/StudentMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/05dynamicsql/src/main/java/com/monkey1024/dao/StudentMapper.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/05dynamicsql/src/main/java/com/monkey1024/test/StudentTest01.java" beforeDir="false" afterPath="$PROJECT_DIR$/05dynamicsql/src/main/java/com/monkey1024/test/StudentTest01.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/05dynamicsql/target/classes/com/monkey1024/dao/StudentDao.class" beforeDir="false" afterPath="$PROJECT_DIR$/05dynamicsql/target/classes/com/monkey1024/dao/StudentDao.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/05dynamicsql/target/classes/com/monkey1024/dao/StudentMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/05dynamicsql/target/classes/com/monkey1024/dao/StudentMapper.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/05dynamicsql/target/classes/com/monkey1024/test/StudentTest01.class" beforeDir="false" afterPath="$PROJECT_DIR$/05dynamicsql/target/classes/com/monkey1024/test/StudentTest01.class" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/target/" />
     <ignored path="$PROJECT_DIR$/01firstmybatis/target/" />
@@ -44,7 +39,7 @@
           <entry key="dummy" value="3" />
           <entry key="java" value="3090" />
           <entry key="properties" value="128" />
-          <entry key="xml" value="1843" />
+          <entry key="xml" value="1951" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
@@ -52,8 +47,8 @@
           <entry key="JAVA" value="3090" />
           <entry key="PLAIN_TEXT" value="3" />
           <entry key="Properties" value="128" />
-          <entry key="SQL" value="39" />
-          <entry key="XML" value="1804" />
+          <entry key="SQL" value="44" />
+          <entry key="XML" value="1907" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
@@ -76,11 +71,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/05dynamicsql/src/main/java/com/monkey1024/test/StudentTest01.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="330">
-              <caret line="105" column="24" selection-start-line="105" selection-start-column="24" selection-end-line="105" selection-end-column="24" />
+            <state relative-caret-position="190">
+              <caret line="76" column="32" selection-start-line="76" selection-start-column="32" selection-end-line="76" selection-end-column="32" />
             </state>
           </provider>
         </entry>
@@ -94,11 +89,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/05dynamicsql/src/main/java/com/monkey1024/dao/StudentMapper.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="410">
-              <caret line="79" column="24" selection-start-line="79" selection-start-column="24" selection-end-line="79" selection-end-column="24" />
+            <state relative-caret-position="75">
+              <caret line="62" column="55" selection-start-line="62" selection-start-column="55" selection-end-line="62" selection-end-column="55" />
             </state>
           </provider>
         </entry>
@@ -172,10 +167,10 @@
         <option value="$PROJECT_DIR$/04proxy/src/main/java/com/monkey1024/test/StudentTest01.java" />
         <option value="$PROJECT_DIR$/03crudone/src/main/java/com/monkey1024/test/StudentTest01.java" />
         <option value="$PROJECT_DIR$/02refactor/src/main/java/com/monkey1024/test/StudentTest01.java" />
-        <option value="$PROJECT_DIR$/05dynamicsql/src/main/java/com/monkey1024/dao/StudentMapper.xml" />
         <option value="$PROJECT_DIR$/05dynamicsql/src/main/java/com/monkey1024/dao/StudentDao.java" />
         <option value="$PROJECT_DIR$/05dynamicsql/src/main/java/com/monkey1024/bean/Student.java" />
         <option value="$PROJECT_DIR$/05dynamicsql/src/main/java/com/monkey1024/test/StudentTest01.java" />
+        <option value="$PROJECT_DIR$/05dynamicsql/src/main/java/com/monkey1024/dao/StudentMapper.xml" />
       </list>
     </option>
   </component>
@@ -426,7 +421,7 @@
     <property name="SearchEverywhereHistoryKey" value="&#9;FILE&#9;file:///Users/xm/JavaStudy/gitSource/learnmybatis/05dynamicsql/src/main/java/com/monkey1024/dao/StudentMapper.xml" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1539846100927" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1539846422805" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="project.structure.last.edited" value="Modules" />
@@ -458,7 +453,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.StudentTest01.selectForeachListStudent">
+  <component name="RunManager" selected="JUnit.StudentTest01.selectForeachList">
     <configuration name="StudentTest01.selectChoose" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="_05dynamicsql" />
       <extension name="coverage">
@@ -548,8 +543,8 @@
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.StudentTest01.selectForeachListStudent" />
         <item itemvalue="JUnit.StudentTest01.selectForeachList" />
+        <item itemvalue="JUnit.StudentTest01.selectForeachListStudent" />
         <item itemvalue="JUnit.StudentTest01.selectIf" />
         <item itemvalue="JUnit.StudentTest01.selectWhere" />
         <item itemvalue="JUnit.StudentTest01.selectChoose" />
@@ -568,23 +563,11 @@
       <updated>1539673268413</updated>
       <workItem from="1539673269763" duration="9171000" />
       <workItem from="1539690540680" duration="39000" />
-      <workItem from="1539690592988" duration="26800000" />
+      <workItem from="1539690592988" duration="27255000" />
     </task>
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="StudentTest01_selectForeachArray - 2018.10.18 at 14h 41m 25s.xml">
-      <configuration name="StudentTest01.selectForeachArray" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="StudentTest01_selectForeachArray - 2018.10.18 at 14h 42m 31s.xml">
-      <configuration name="StudentTest01.selectForeachArray" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="StudentTest01_selectForeachArray - 2018.10.18 at 14h 43m 10s.xml">
-      <configuration name="StudentTest01.selectForeachArray" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="StudentTest01_selectChoose - 2018.10.18 at 14h 44m 17s.xml">
-      <configuration name="StudentTest01.selectChoose" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="StudentTest01_selectChoose - 2018.10.18 at 14h 44m 33s.xml">
       <configuration name="StudentTest01.selectChoose" configurationId="JUnit" />
     </history-entry>
@@ -603,15 +586,27 @@
     <history-entry file="StudentTest01_selectForeachList - 2018.10.18 at 14h 52m 36s.xml">
       <configuration name="StudentTest01.selectForeachList" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="StudentTest01_selectForeachListStudent - 2018.10.18 at 15h 00m 44s.xml">
+      <configuration name="StudentTest01.selectForeachListStudent" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="StudentTest01_selectForeachListStudent - 2018.10.18 at 15h 05m 47s.xml">
+      <configuration name="StudentTest01.selectForeachListStudent" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="StudentTest01_selectForeachListStudent - 2018.10.18 at 15h 06m 32s.xml">
+      <configuration name="StudentTest01.selectForeachListStudent" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="StudentTest01_selectForeachList - 2018.10.18 at 15h 06m 36s.xml">
+      <configuration name="StudentTest01.selectForeachList" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="36110000" />
+    <option name="totallyTimeSpent" value="36565000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="15" y="23" width="872" height="990" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.36506024" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.36506024" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="UI Designer" order="3" />
@@ -621,7 +616,7 @@
       <window_info id="Image Layers" order="7" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.38084632" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.38084632" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.3997773" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -970,13 +965,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/05dynamicsql/src/main/java/com/monkey1024/dao/StudentMapper.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="410">
-          <caret line="79" column="24" selection-start-line="79" selection-start-column="24" selection-end-line="79" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/05dynamicsql/src/main/java/com/monkey1024/dao/StudentDao.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="150">
@@ -993,8 +981,15 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/05dynamicsql/src/main/java/com/monkey1024/test/StudentTest01.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="330">
-          <caret line="105" column="24" selection-start-line="105" selection-start-column="24" selection-end-line="105" selection-end-column="24" />
+        <state relative-caret-position="190">
+          <caret line="76" column="32" selection-start-line="76" selection-start-column="32" selection-end-line="76" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/05dynamicsql/src/main/java/com/monkey1024/dao/StudentMapper.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="62" column="55" selection-start-line="62" selection-start-column="55" selection-end-line="62" selection-end-column="55" />
         </state>
       </provider>
     </entry>
