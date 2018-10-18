@@ -12,21 +12,21 @@
 
         <!--关联属性的映射关系-->
         <association property="team" javaType="team">
-            <id column="tid" property="id"/>
+            <id column="ttid" property="id"/>
             <result column="tname" property="name"/>
         </association>
     </resultMap>
 
     <!--一对一-->
     <select id="selectPlayerById" resultMap="playerMapper">
-        SELECT p.id pid,p.name pname,p.sex psex,.t.id tid,t.name tname
+        SELECT p.id pid,p.name pname,p.sex psex,p.tid ptid,t.id ttid,t.name tname
         FROM t_player p,t_team t
         WHERE p.tid=t.id AND p.id=#{id}
     </select>
 
     <!--多对一-->
     <select id="selectPlayer" resultMap="playerMapper">
-        SELECT p.id pid,p.name pname,p.sex psex,.t.id tid,t.name tname
+        SELECT p.id pid,p.name pname,p.sex psex,p.tid ptid,t.id ttid,t.name tname
         FROM t_player p,t_team t
         WHERE p.tid=t.id
     </select>
