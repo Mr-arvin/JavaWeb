@@ -15,8 +15,7 @@
         <collection property="playerList" ofType="player">
             <id column="pid" property="id"/>
             <result column="pname" property="name"/>
-            <result column="psex" property="sex"/>
-        </collection>
+\        </collection>
     </resultMap>
 
     <select id="selectTeamById" resultMap="teamMap">

@@ -33,7 +33,7 @@ public class TeamTest01 {
         }
     }
 
-    //选择年龄大于不52的
+    //一对多的查询
     @Test
     public void selectTeamById() throws Exception {
         Team teamlist = teamDao.selectTeamById(2);

@@ -12,6 +12,7 @@
         <module name="_04proxy" />
         <module name="_05dynamicsql" />
         <module name="_06onetomany" />
+        <module name="_07manytoone" />
       </profile>
     </annotationProcessing>
   </component>

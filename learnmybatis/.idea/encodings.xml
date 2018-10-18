@@ -8,5 +8,6 @@
     <file url="file://$PROJECT_DIR$/04proxy" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/05dynamicsql" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/06onetomany" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/07manytoone" charset="UTF-8" />
   </component>
 </project>

@@ -14,6 +14,7 @@
       <module>04proxy</module>
       <module>05dynamicsql</module>
       <module>06onetomany</module>
+      <module>07manytoone</module>
     </modules>
     <packaging>pom</packaging>
 
