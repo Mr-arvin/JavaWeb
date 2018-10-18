@@ -36,8 +36,13 @@ public class TeamTest01 {
     //选择年龄大于不52的
     @Test
     public void selectTeamById() throws Exception {
-        Team team = teamDao.selectTeamById(1);
-        System.out.println(team);
+        Team teamlist = teamDao.selectTeamById(2);
+        System.out.println(teamlist);
+        System.out.println(teamlist.getId());
+        System.out.println(teamlist.getName());
+        System.out.println(teamlist.getClass());
+        System.out.println(teamlist.getPlayerList());
 
     }
 }
+

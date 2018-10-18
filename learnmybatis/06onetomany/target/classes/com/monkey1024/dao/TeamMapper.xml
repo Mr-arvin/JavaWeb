@@ -10,16 +10,20 @@
         <result column="tname" property="name"/>
 
         <!--关联属性的映射关系-->
+        <!--property中填写集合在Team这个bean中的属性名称，此时是playerList-->
+        <!--ofType中填写集合的泛型-->
         <collection property="playerList" ofType="player">
             <id column="pid" property="id"/>
             <result column="pname" property="name"/>
+            <result column="psex" property="sex"/>
         </collection>
     </resultMap>
 
     <select id="selectTeamById" resultMap="teamMap">
-        SELECT t.id teamid,t.name tname,p.id pid,p.name pname
+        SELECT t.id teamid,t.name tname,p.id pid,p.name pname,p.sex psex
         FROM t_team t,t_player p
         WHERE t.id = p.tid AND t.id = #{id}
     </select>
+    <!--Team{id=2, name='金州勇士', playerList=[Player{id=3, name='杜兰特'}, Player{id=4, name='库里'}, Player{id=5, name='汤普森'}]}-->
 
 </mapper>

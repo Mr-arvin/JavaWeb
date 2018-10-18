@@ -11,15 +11,6 @@ public class Team {
     private String name;
     private List<Player> playerList;
 
-    @Override
-    public String toString() {
-        return "Team{" +
-                "id=" + id +
-                ", name='" + name + '\'' +
-                ", playerList=" + playerList +
-                '}';
-    }
-
     public int getId() {
         return id;
     }
@@ -42,5 +33,14 @@ public class Team {
 
     public void setPlayerList(List<Player> playerList) {
         this.playerList = playerList;
+    }
+
+    @Override
+    public String toString() {
+        return "Team{" +
+                "id=" + id +
+                ", name='" + name + '\'' +
+                ", playerList=" + playerList +
+                '}';
     }
 }

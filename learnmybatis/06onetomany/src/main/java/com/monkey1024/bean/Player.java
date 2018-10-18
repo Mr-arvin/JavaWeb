@@ -7,6 +7,7 @@ package com.monkey1024.bean;
 public class Player {
     private int id;
     private String name;
+    private String sex;
 
     public int getId() {
         return id;
@@ -24,11 +25,19 @@ public class Player {
         this.name = name;
     }
 
+    public String getSex() {
+        return sex;
+    }
+
+    public void setSex(String sex) {
+        this.sex = sex;
+    }
+
     public Player(){
         super();
     }
 
-    public Player(int id, String name) {
+    public Player(int id, String name, String sex) {
         this.id = id;
         this.name = name;
     }
@@ -38,6 +47,7 @@ public class Player {
         return "Player{" +
                 "id=" + id +
                 ", name='" + name + '\'' +
+                ", sex='" + sex + '\'' +
                 '}';
     }
 }
